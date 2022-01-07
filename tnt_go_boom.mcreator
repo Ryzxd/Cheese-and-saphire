@@ -1,9 +1,40 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Cheztnt",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheztnt"
+    },
+    {
+      "name": "Cheztnt_explode",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheztnt_explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.tnt_go_boom.cheztnt": "Chez tnt"
+    }
   },
   "foldersRoot": {
     "name": "~",

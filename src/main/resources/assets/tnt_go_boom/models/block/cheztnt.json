@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnt_go_boom:blocks/download_6",
+    "up": "tnt_go_boom:blocks/download_6",
+    "north": "tnt_go_boom:blocks/cheztnt",
+    "east": "tnt_go_boom:blocks/cheztnt",
+    "south": "tnt_go_boom:blocks/cheztnt",
+    "west": "tnt_go_boom:blocks/cheztnt",
+    "particle": "tnt_go_boom:blocks/download_6"
+  }
+}
