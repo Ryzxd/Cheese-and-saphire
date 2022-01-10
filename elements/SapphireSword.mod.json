@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sapphire_sword",
+    "customModelName": "Normal",
+    "name": "Sapphire Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 3.0,
+    "enchantability": 14,
+    "damageVsEntity": 7.5,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sapphire"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

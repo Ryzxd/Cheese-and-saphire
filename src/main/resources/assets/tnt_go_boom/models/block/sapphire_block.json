@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tnt_go_boom:blocks/happy_dog",
+    "particle": "tnt_go_boom:blocks/happy_dog"
+  }
+}

@@ -1,9 +1,197 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore"
+    },
+    {
+      "name": "SapphireBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_block"
+    },
+    {
+      "name": "SapphireOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore_block_recipe"
+    },
+    {
+      "name": "SapphireBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_block_ore_recipe"
+    },
+    {
+      "name": "SapphireOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore_smelting"
+    },
+    {
+      "name": "SapphirePickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_pickaxe"
+    },
+    {
+      "name": "SapphireAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_axe"
+    },
+    {
+      "name": "SapphireSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_sword"
+    },
+    {
+      "name": "SapphireShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_shovel"
+    },
+    {
+      "name": "SapphireHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_hoe"
+    },
+    {
+      "name": "SapphirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_pickaxe_recipe"
+    },
+    {
+      "name": "SapphireAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_axe_recipe"
+    },
+    {
+      "name": "SapphireSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_sword_recipe"
+    },
+    {
+      "name": "SapphireShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_shovel_recipe"
+    },
+    {
+      "name": "SapphireHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_hoe_recipe"
+    },
+    {
+      "name": "SapphireArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SapphireArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_helmet_recipe"
+    },
+    {
+      "name": "SapphireArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_body_recipe"
+    },
+    {
+      "name": "SapphireArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_leggings_recipe"
+    },
+    {
+      "name": "SapphireArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_boots_recipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.tnt_go_boom.sapphire_shovel": "Sapphire Shovel",
+      "item.tnt_go_boom.sapphire_armor_boots": "Sapphire Boots",
+      "item.tnt_go_boom.sapphire_armor_helmet": "Sapphire Helmet",
+      "item.tnt_go_boom.sapphire_hoe": "Sapphire Hoe",
+      "block.tnt_go_boom.sapphire_ore": "Sapphire Ore",
+      "item.tnt_go_boom.sapphire_pickaxe": "Sapphire Pickaxe",
+      "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
+      "item.tnt_go_boom.sapphire": "Sapphire",
+      "block.tnt_go_boom.sapphire_block": "Block of Sapphire",
+      "item.tnt_go_boom.sapphire_axe": "Sapphire Axe",
+      "item.tnt_go_boom.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "item.tnt_go_boom.sapphire_armor_leggings": "Sapphire Kneecap Protector"
+    }
   },
   "foldersRoot": {
     "name": "~",
