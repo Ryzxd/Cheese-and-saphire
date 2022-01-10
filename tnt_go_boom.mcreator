@@ -328,7 +328,30 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.tnt_go_boom.cheese_squire_armor_chestplate": "Cheese_squire Chestplate",
+      "item.tnt_go_boom.sapphire_shovel": "Sapphire Shovel",
+      "item.tnt_go_boom.sapphire_armor_boots": "Sapphire Boots",
+      "item.tnt_go_boom.icecreamcone": "Icecreamcone",
+      "item.tnt_go_boom.cheese_squire_armor_boots": "Cheese_squire Boots",
+      "item.tnt_go_boom.cheznuggee": "Cheznuggee",
+      "item.tnt_go_boom.cheese_squire_armor_leggings": "Cheese_squire Leggings",
+      "item.tnt_go_boom.sapphire_armor_helmet": "Sapphire Helmet",
+      "item.tnt_go_boom.sapphire_hoe": "Sapphire Hoe",
+      "block.tnt_go_boom.cheeseblock": "Cheeseblock",
+      "item.tnt_go_boom.bingqiling": "Bingqiling",
+      "block.tnt_go_boom.sapphire_ore": "Sapphire Ore",
+      "item.tnt_go_boom.sapphire_pickaxe": "Sapphire Pickaxe",
+      "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
+      "item.tnt_go_boom.chez": "Chez",
+      "block.tnt_go_boom.cheese_ore": "Cheese Ore",
+      "block.tnt_go_boom.sapphire_block": "Block of Sapphire",
+      "item.tnt_go_boom.sapphire": "Sapphire",
+      "item.tnt_go_boom.sapphire_axe": "Sapphire Axe",
+      "item.tnt_go_boom.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "item.tnt_go_boom.cheese_squire_armor_helmet": "Cheese_squire Helmet",
+      "item.tnt_go_boom.sapphire_armor_leggings": "Sapphire Kneecap Protector"
+    }
   },
   "foldersRoot": {
     "name": "~",

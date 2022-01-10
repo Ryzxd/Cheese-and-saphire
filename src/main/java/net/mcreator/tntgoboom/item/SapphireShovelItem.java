@@ -1,7 +1,14 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.tntgoboom.init.TntGoBoomModItems;
 
 public class SapphireShovelItem extends ShovelItem {
 	public SapphireShovelItem() {
@@ -27,15 +34,9 @@ public class SapphireShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(TntGoBoomModItems.DELETED_MOD_ELEMENT));
+				return Ingredient.of(new ItemStack(TntGoBoomModItems.SAPPHIRE));
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-
+		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("sapphire_shovel");
 	}
-
 }

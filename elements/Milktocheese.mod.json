@@ -2,16 +2,16 @@
   "_fv": 24,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
+    "recipeType": "Campfire cooking",
     "xpReward": 100.0,
     "cookingTime": 5000,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "smeltingInputStack": {
+    "campfireCookingInputStack": {
       "value": "Items.MILK_BUCKET"
     },
-    "smeltingReturnStack": {
+    "campfireCookingReturnStack": {
       "value": "CUSTOM:Chez"
     },
     "name": "milktocheese",
