@@ -1,6 +1,7 @@
 package net.mcreator.tntgoboom.procedures;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
@@ -31,5 +32,7 @@ public class BingqilingFoodEatenProcedure {
 				_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 			}
 		}
+		if (entity instanceof LivingEntity _entity)
+			_entity.setHealth(9999999);
 	}
 }
