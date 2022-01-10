@@ -3,10 +3,10 @@
   "textures": {
     "down": "tnt_go_boom:blocks/download_6",
     "up": "tnt_go_boom:blocks/download_6",
-    "north": "tnt_go_boom:blocks/cheztnt",
-    "east": "tnt_go_boom:blocks/cheztnt",
-    "south": "tnt_go_boom:blocks/cheztnt",
-    "west": "tnt_go_boom:blocks/cheztnt",
+    "north": "tnt_go_boom:blocks/download_6",
+    "east": "tnt_go_boom:blocks/download_6",
+    "south": "tnt_go_boom:blocks/download_6",
+    "west": "tnt_go_boom:blocks/download_6",
     "particle": "tnt_go_boom:blocks/download_6"
   }
 }

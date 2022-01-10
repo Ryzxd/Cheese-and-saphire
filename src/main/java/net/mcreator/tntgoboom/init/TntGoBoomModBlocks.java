@@ -10,7 +10,8 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.tntgoboom.block.CheztntBlock;
+import net.mcreator.tntgoboom.block.CheeseblockBlock;
+import net.mcreator.tntgoboom.block.CheeseOreBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -18,7 +19,8 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TntGoBoomModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block CHEZTNT = register(new CheztntBlock());
+	public static final Block CHEESE_ORE = register(new CheeseOreBlock());
+	public static final Block CHEESEBLOCK = register(new CheeseblockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

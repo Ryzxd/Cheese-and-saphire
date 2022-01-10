@@ -2,18 +2,18 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "download_6",
-    "textureTop": "download_6",
-    "textureLeft": "cheztnt",
-    "textureFront": "cheztnt",
-    "textureRight": "cheztnt",
-    "textureBack": "cheztnt",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "cheese_ore",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "screenshot_2022-01-06_at_3.26.40_pm",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,33 +32,31 @@
         "subtract": false
       }
     ],
-    "name": "Chez tnt",
-    "specialInfo": [
-      "tnt"
-    ],
-    "hardness": 1.0,
-    "resistance": 10.0,
-    "hasGravity": true,
+    "name": "Cheese Ore",
+    "specialInfo": [],
+    "hardness": 30.0,
+    "resistance": 31.547867224009668,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 1000.0,
+    "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "TNT"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
@@ -68,18 +66,18 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "BLOCKED",
-    "flammability": 1000,
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 0.5,
+    "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "IGNORE",
-    "isNotColidable": true,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 20,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -123,16 +121,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 0,
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 7
   }
 }

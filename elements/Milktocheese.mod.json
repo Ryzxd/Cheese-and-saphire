@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 100.0,
+    "cookingTime": 5000,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.MILK_BUCKET"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Chez"
+    },
+    "name": "milktocheese",
+    "namespace": "mod"
+  }
+}

@@ -1,39 +1,170 @@
 {
   "mod_elements": [
     {
-      "name": "Cheztnt",
-      "type": "block",
-      "sortid": 1,
+      "name": "Chez",
+      "type": "food",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cheztnt"
+      "registry_name": "chez"
     },
     {
-      "name": "Cheztnt_explode",
-      "type": "procedure",
-      "sortid": 2,
+      "name": "Cheeseblockrecipie",
+      "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cheztnt_explode",
+      "registry_name": "cheeseblockrecipie"
+    },
+    {
+      "name": "Cheese_squireArmor",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_squire_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Cheese_squireArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_squire_armor_helmet_recipe"
+    },
+    {
+      "name": "Cheese_squireArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_squire_armor_body_recipe"
+    },
+    {
+      "name": "Cheese_squireArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_squire_armor_leggings_recipe"
+    },
+    {
+      "name": "Cheese_squireArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_squire_armor_boots_recipe"
+    },
+    {
+      "name": "CheeseOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_ore"
+    },
+    {
+      "name": "CheeseOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_ore_block_recipe"
+    },
+    {
+      "name": "CheeseOreSmelting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_ore_smelting"
+    },
+    {
+      "name": "Cheznuggee",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheznuggee"
+    },
+    {
+      "name": "Milktocheese",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milktocheese"
+    },
+    {
+      "name": "Cheeseblock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseblock"
+    },
+    {
+      "name": "BingqilingFoodEaten",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bingqiling_food_eaten",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
+    },
+    {
+      "name": "Bingqiling",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bingqiling"
+    },
+    {
+      "name": "Icecreamcone",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icecreamcone"
+    },
+    {
+      "name": "Bingqilingrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bingqilingrecipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.tnt_go_boom.cheztnt": "Chez tnt"
+      "item.tnt_go_boom.cheese_squire_armor_chestplate": "Cheese_squire Chestplate",
+      "item.tnt_go_boom.bingqiling": "Bingqiling",
+      "item.tnt_go_boom.chez": "Chez",
+      "block.tnt_go_boom.cheese_ore": "Cheese Ore",
+      "item.tnt_go_boom.icecreamcone": "Icecreamcone",
+      "item.tnt_go_boom.cheese_squire_armor_boots": "Cheese_squire Boots",
+      "item.tnt_go_boom.cheese_squire_armor_leggings": "Cheese_squire Leggings",
+      "item.tnt_go_boom.cheznuggee": "Cheznuggee",
+      "item.tnt_go_boom.cheese_squire_armor_helmet": "Cheese_squire Helmet",
+      "block.tnt_go_boom.cheeseblock": "Cheeseblock"
     }
   },
   "foldersRoot": {

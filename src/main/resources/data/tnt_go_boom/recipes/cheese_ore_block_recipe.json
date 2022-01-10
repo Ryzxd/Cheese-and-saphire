@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "1": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "2": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "3": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "4": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "5": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "6": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "7": {
+      "item": "tnt_go_boom:cheznuggee"
+    },
+    "8": {
+      "item": "tnt_go_boom:cheznuggee"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:chez",
+    "count": 1
+  }
+}

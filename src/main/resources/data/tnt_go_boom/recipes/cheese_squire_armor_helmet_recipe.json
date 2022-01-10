@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:cheeseblock"
+    },
+    "1": {
+      "item": "tnt_go_boom:cheeseblock"
+    },
+    "2": {
+      "item": "tnt_go_boom:cheeseblock"
+    },
+    "3": {
+      "item": "tnt_go_boom:cheeseblock"
+    },
+    "5": {
+      "item": "tnt_go_boom:cheeseblock"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:cheese_squire_armor_helmet",
+    "count": 1
+  }
+}

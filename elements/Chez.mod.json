@@ -1,0 +1,28 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cheese",
+    "customModelName": "Normal",
+    "name": "Chez",
+    "rarity": "UNCOMMON",
+    "specialInfo": [
+      "chez"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 8,
+    "saturation": 0.4,
+    "eatingSpeed": 15,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

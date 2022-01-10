@@ -1,7 +1,0 @@
-{
-  "_fv": 24,
-  "_type": "procedure",
-  "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"explode\"><field name=\"mode\">BREAK</field><value name=\"x\"><block type=\"entity_potioneffectlevel\"><field name=\"potion\">SATURATION</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><value name=\"y\"><block type=\"entity_potioneffectlevel\"><field name=\"potion\">SLOWNESS</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><value name=\"z\"><block type=\"entity_potioneffectlevel\"><field name=\"potion\">NIGHT_VISION</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><value name=\"power\"><block type=\"world_data_number_players_server\"></block></value></block></next></block></xml>"
-  }
-}
