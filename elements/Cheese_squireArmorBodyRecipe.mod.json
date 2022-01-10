@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cheeseblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cheeseblock"
+      },
+      {
+        "value": "CUSTOM:Cheeseblock"
+      },
+      {
+        "value": "CUSTOM:Cheeseblock"
+      },
+      {
+        "value": "CUSTOM:Cheeseblock"
+      },
+      {
+        "value": "CUSTOM:Cheeseblock"
+      },
+      {
+        "value": "CUSTOM:Cheeseblock"
+      },
+      {
+        "value": "CUSTOM:Cheeseblock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cheese_squireArmor.body"
+    },
+    "name": "cheese_squire_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

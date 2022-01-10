@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tnt_go_boom:sapphire_ore",
-    "tnt_go_boom:sapphire_block"
+    "tnt_go_boom:sapphire_block",
+    "tnt_go_boom:cheese_ore"
   ]
 }

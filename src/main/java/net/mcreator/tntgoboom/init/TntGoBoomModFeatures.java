@@ -17,6 +17,7 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.tntgoboom.world.features.ores.SapphireOreFeature;
+import net.mcreator.tntgoboom.world.features.ores.CheeseOreFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -28,6 +29,8 @@ public class TntGoBoomModFeatures {
 	static {
 		REGISTRY.put(SapphireOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				SapphireOreFeature.GENERATE_BIOMES, SapphireOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(CheeseOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CheeseOreFeature.GENERATE_BIOMES,
+				CheeseOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

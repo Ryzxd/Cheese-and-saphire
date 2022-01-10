@@ -1,14 +1,7 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
-
-import net.mcreator.tntgoboom.init.TntGoBoomModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class SapphireHoeItem extends HoeItem {
 	public SapphireHoeItem() {
@@ -34,9 +27,15 @@ public class SapphireHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(TntGoBoomModItems.SAPPHIRE));
+				return Ingredient.of(new ItemStack(TntGoBoomModItems.DELETED_MOD_ELEMENT));
 			}
-		}, 0, -2.5f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		},
+
+				0, -2.5f,
+
+				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+
 		setRegistryName("sapphire_hoe");
 	}
+
 }

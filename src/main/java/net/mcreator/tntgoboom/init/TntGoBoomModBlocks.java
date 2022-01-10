@@ -14,6 +14,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.tntgoboom.block.SapphireOreBlock;
 import net.mcreator.tntgoboom.block.SapphireBlockBlock;
+import net.mcreator.tntgoboom.block.CheeseblockBlock;
+import net.mcreator.tntgoboom.block.CheeseOreBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -23,6 +25,8 @@ public class TntGoBoomModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block SAPPHIRE_ORE = register(new SapphireOreBlock());
 	public static final Block SAPPHIRE_BLOCK = register(new SapphireBlockBlock());
+	public static final Block CHEESE_ORE = register(new CheeseOreBlock());
+	public static final Block CHEESEBLOCK = register(new CheeseblockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
