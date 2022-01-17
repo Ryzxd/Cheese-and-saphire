@@ -803,32 +803,20 @@
       }
     },
     {
+      "name": "Cheznomer",
+      "type": "livingentity",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheznomer"
+    },
+    {
       "name": "Farmland",
       "type": "procedure",
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "farmland",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bonemeal",
-      "type": "procedure",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal",
       "metadata": {
         "dependencies": [
           {
@@ -851,12 +839,150 @@
       "registry_name": "chez_biome"
     },
     {
-      "name": "Cheznomer",
-      "type": "livingentity",
-      "sortid": 84,
+      "name": "Bonemeal",
+      "type": "procedure",
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cheznomer"
+      "registry_name": "bonemeal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sapphiredart",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphiredart"
+    },
+    {
+      "name": "Dartshot",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dartshot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poisonpotato",
+      "type": "rangeditem",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonpotato"
+    },
+    {
+      "name": "EndermanarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_boots_recipe"
+    },
+    {
+      "name": "Endermanarmorhit",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmorhit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poisonpotatodart",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonpotatodart"
+    },
+    {
+      "name": "Sapphiredartcraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphiredartcraft"
+    },
+    {
+      "name": "Poisonpotatodartshot",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonpotatodartshot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndermanarmorArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EndermanarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_body_recipe"
+    },
+    {
+      "name": "EndermanarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_leggings_recipe"
+    },
+    {
+      "name": "EndermanarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_helmet_recipe"
     }
   ],
   "variable_elements": [],

@@ -24,6 +24,11 @@ public class BingqilingItem extends Item {
 	}
 
 	@Override
+	public int getUseDuration(ItemStack stack) {
+		return 25;
+	}
+
+	@Override
 	@OnlyIn(Dist.CLIENT)
 	public boolean isFoil(ItemStack itemstack) {
 		return true;

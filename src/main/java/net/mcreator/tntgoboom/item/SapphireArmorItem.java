@@ -36,7 +36,7 @@ public abstract class SapphireArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.chime"));
 			}
 
 			@Override

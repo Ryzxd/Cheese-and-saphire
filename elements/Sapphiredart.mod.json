@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "sapphire_dart",
+    "customModelName": "Normal",
+    "name": "Sapphiredart",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "onRangedItemUsed": {
+      "name": "Dartshot"
+    },
+    "bulletPower": 1.5,
+    "bulletDamage": 7.5,
+    "bulletKnockback": 7,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Sapphiredart"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

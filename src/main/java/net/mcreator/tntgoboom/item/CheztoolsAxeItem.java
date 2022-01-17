@@ -1,19 +1,7 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.tntgoboom.procedures.Tree_mineProcedure;
-import net.mcreator.tntgoboom.init.TntGoBoomModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class CheztoolsAxeItem extends AxeItem {
 	public CheztoolsAxeItem() {
@@ -41,7 +29,12 @@ public class CheztoolsAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TntGoBoomModItems.CHEZ));
 			}
-		}, 1, -1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		},
+
+				1, -1f,
+
+				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+
 		setRegistryName("cheztools_axe");
 	}
 
@@ -55,4 +48,5 @@ public class CheztoolsAxeItem extends AxeItem {
 		Tree_mineProcedure.execute(world, x, y);
 		return retval;
 	}
+
 }

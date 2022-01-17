@@ -3,7 +3,7 @@
   "experience": 1,
   "cookingtime": 2000,
   "ingredient": {
-    "item": "tnt_go_boom:stickchezwood"
+    "item": "tnt_go_boom:deleted_mod_element"
   },
   "result": {
     "item": "tnt_go_boom:chez"

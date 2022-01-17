@@ -14,6 +14,8 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.tntgoboom.entity.SapphiredartEntity;
+import net.mcreator.tntgoboom.entity.PoisonpotatoEntity;
 import net.mcreator.tntgoboom.entity.CheznomerEntity;
 
 import java.util.List;
@@ -22,6 +24,12 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TntGoBoomModEntities {
 	private static final List<EntityType<?>> REGISTRY = new ArrayList<>();
+	public static final EntityType<SapphiredartEntity> SAPPHIREDART = register("entitybulletsapphiredart",
+			EntityType.Builder.<SapphiredartEntity>of(SapphiredartEntity::new, MobCategory.MISC).setCustomClientFactory(SapphiredartEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<PoisonpotatoEntity> POISONPOTATO = register("entitybulletpoisonpotato",
+			EntityType.Builder.<PoisonpotatoEntity>of(PoisonpotatoEntity::new, MobCategory.MISC).setCustomClientFactory(PoisonpotatoEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<CheznomerEntity> CHEZNOMER = register("cheznomer",
 			EntityType.Builder.<CheznomerEntity>of(CheznomerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CheznomerEntity::new).sized(0.9f, 0.9f));
