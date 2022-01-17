@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Chez_woodLog"
+      },
+      {
+        "value": "CUSTOM:Chez_woodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Chez_woodLog"
+      },
+      {
+        "value": "CUSTOM:Chez_woodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Chez_woodWood"
+    },
+    "name": "chez_wood_wood_recipe",
+    "namespace": "mod"
+  }
+}

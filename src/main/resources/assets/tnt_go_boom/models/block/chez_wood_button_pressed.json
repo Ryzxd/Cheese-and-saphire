@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "tnt_go_boom:blocks/chez_wood_planks"
+  }
+}

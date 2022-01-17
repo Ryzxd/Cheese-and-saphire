@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tnt_go_boom:items/cheztools_shovel"
+  }
+}

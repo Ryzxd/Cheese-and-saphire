@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tnt_go_boom:block/chez_wood_slab"
+    },
+    "type=top": {
+      "model": "tnt_go_boom:block/chez_wood_slab_top"
+    },
+    "type=double": {
+      "model": "tnt_go_boom:block/chez_wood_slab_full"
+    }
+  }
+}

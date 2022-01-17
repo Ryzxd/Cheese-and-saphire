@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:chez_wood_wood"
+    },
+    "1": {
+      "item": "tnt_go_boom:chez_wood_wood"
+    },
+    "2": {
+      "item": "tnt_go_boom:chez_wood_wood"
+    },
+    "3": {
+      "item": "tnt_go_boom:chez_wood_wood"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:chezwoodwoodwood",
+    "count": 1
+  }
+}

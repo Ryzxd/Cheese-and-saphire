@@ -1,9 +1,9 @@
 {
   "type": "minecraft:campfire_cooking",
-  "experience": 100,
-  "cookingtime": 5000,
+  "experience": 1,
+  "cookingtime": 3000,
   "ingredient": {
-    "item": "minecraft:milk_bucket"
+    "item": "tnt_go_boom:stickchezwood"
   },
   "result": {
     "item": "tnt_go_boom:chez"

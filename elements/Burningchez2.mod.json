@@ -3,18 +3,18 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Campfire cooking",
-    "xpReward": 100.0,
-    "cookingTime": 5000,
+    "xpReward": 1.0,
+    "cookingTime": 3000,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "campfireCookingInputStack": {
-      "value": "Items.MILK_BUCKET"
+      "value": "CUSTOM:Stickchezwood"
     },
     "campfireCookingReturnStack": {
       "value": "CUSTOM:Chez"
     },
-    "name": "milktocheese",
+    "name": "burningchez_2",
     "namespace": "mod"
   }
 }

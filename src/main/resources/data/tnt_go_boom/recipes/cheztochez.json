@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    },
+    "1": {
+      "item": "tnt_go_boom:chezwoodwoodwood"
+    },
+    "2": {
+      "item": "tnt_go_boom:chezwoodwoodwood"
+    },
+    "3": {
+      "item": "tnt_go_boom:chezwoodwoodwood"
+    },
+    "4": {
+      "item": "tnt_go_boom:chezwoodwoodwood"
+    },
+    "5": {
+      "item": "tnt_go_boom:chezwoodwoodwood"
+    },
+    "6": {
+      "item": "tnt_go_boom:chezwoodwoodwood"
+    },
+    "7": {
+      "item": "tnt_go_boom:chezwoodwoodwood"
+    },
+    "8": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:stickchezwood",
+    "count": 1
+  }
+}

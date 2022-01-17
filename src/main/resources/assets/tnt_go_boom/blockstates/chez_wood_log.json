@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tnt_go_boom:block/chez_wood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tnt_go_boom:block/chez_wood_log"
+    },
+    "axis=z": {
+      "model": "tnt_go_boom:block/chez_wood_log",
+      "x": 90
+    }
+  }
+}
