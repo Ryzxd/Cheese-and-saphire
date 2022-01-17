@@ -27,9 +27,9 @@ public class Bingqiling_stuffOreFeature extends OreFeature {
 	public static final Bingqiling_stuffOreFeature FEATURE = (Bingqiling_stuffOreFeature) new Bingqiling_stuffOreFeature()
 			.setRegistryName("tnt_go_boom:bingqiling_stuff_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(
-					new OreConfiguration(Bingqiling_stuffOreFeatureRuleTest.INSTANCE, TntGoBoomModBlocks.BINGQILING_STUFF_ORE.defaultBlockState(), 2))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(256)))).squared().count(3);
+			.configured(new OreConfiguration(Bingqiling_stuffOreFeatureRuleTest.INSTANCE, TntGoBoomModBlocks.BINGQILING_STUFF_ORE.defaultBlockState(),
+					22))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(256)))).squared().count(19);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public Bingqiling_stuffOreFeature() {

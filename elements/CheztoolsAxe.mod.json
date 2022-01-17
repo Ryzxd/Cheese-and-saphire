@@ -11,12 +11,12 @@
       "value": "TOOLS"
     },
     "toolType": "Axe",
-    "harvestLevel": 4,
-    "efficiency": 9.0,
-    "attackSpeed": 1.0,
-    "enchantability": 28,
-    "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "harvestLevel": 0,
+    "efficiency": 43.0,
+    "attackSpeed": 3.0,
+    "enchantability": 59,
+    "damageVsEntity": 8000.0,
+    "usageCount": 800,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -24,8 +24,11 @@
         "value": "CUSTOM:Chez"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Tree_mine"
+    }
   }
 }

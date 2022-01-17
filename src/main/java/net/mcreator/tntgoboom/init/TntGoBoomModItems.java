@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -96,6 +97,9 @@ public class TntGoBoomModItems {
 	public static final Item BINGQILING_STUFF_ARMOR_CHESTPLATE = register(new Bingqiling_stuffArmorItem.Chestplate());
 	public static final Item BINGQILING_STUFF_ARMOR_LEGGINGS = register(new Bingqiling_stuffArmorItem.Leggings());
 	public static final Item BINGQILING_STUFF_ARMOR_BOOTS = register(new Bingqiling_stuffArmorItem.Boots());
+	public static final Item CHEZNOMER = register(
+			new SpawnEggItem(TntGoBoomModEntities.CHEZNOMER, -3355648, -6711040, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("cheznomer_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

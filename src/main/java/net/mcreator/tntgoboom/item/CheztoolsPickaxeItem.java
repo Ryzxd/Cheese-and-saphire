@@ -18,19 +18,19 @@ public class CheztoolsPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 45f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 5f;
 			}
 
 			public int getLevel() {
-				return 4;
+				return 40;
 			}
 
 			public int getEnchantmentValue() {
-				return 28;
+				return 60;
 			}
 
 			public Ingredient getRepairIngredient() {
