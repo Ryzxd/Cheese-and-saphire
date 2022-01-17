@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.tntgoboom.item.SapphiredartItem;
 import net.mcreator.tntgoboom.item.SapphireSwordItem;
 import net.mcreator.tntgoboom.item.SapphireShovelItem;
 import net.mcreator.tntgoboom.item.SapphirePickaxeItem;
@@ -20,7 +21,9 @@ import net.mcreator.tntgoboom.item.SapphireItem;
 import net.mcreator.tntgoboom.item.SapphireHoeItem;
 import net.mcreator.tntgoboom.item.SapphireAxeItem;
 import net.mcreator.tntgoboom.item.SapphireArmorItem;
+import net.mcreator.tntgoboom.item.PoisonpotatoItem;
 import net.mcreator.tntgoboom.item.IcecreamconeItem;
+import net.mcreator.tntgoboom.item.EndermanarmorArmorItem;
 import net.mcreator.tntgoboom.item.CheznuggeeItem;
 import net.mcreator.tntgoboom.item.ChezItem;
 import net.mcreator.tntgoboom.item.Cheese_squireArmorItem;
@@ -54,6 +57,12 @@ public class TntGoBoomModItems {
 	public static final Item CHEESEBLOCK = register(TntGoBoomModBlocks.CHEESEBLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item BINGQILING = register(new BingqilingItem());
 	public static final Item ICECREAMCONE = register(new IcecreamconeItem());
+	public static final Item SAPPHIREDART = register(new SapphiredartItem());
+	public static final Item POISONPOTATO = register(new PoisonpotatoItem());
+	public static final Item ENDERMANARMOR_ARMOR_HELMET = register(new EndermanarmorArmorItem.Helmet());
+	public static final Item ENDERMANARMOR_ARMOR_CHESTPLATE = register(new EndermanarmorArmorItem.Chestplate());
+	public static final Item ENDERMANARMOR_ARMOR_LEGGINGS = register(new EndermanarmorArmorItem.Leggings());
+	public static final Item ENDERMANARMOR_ARMOR_BOOTS = register(new EndermanarmorArmorItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

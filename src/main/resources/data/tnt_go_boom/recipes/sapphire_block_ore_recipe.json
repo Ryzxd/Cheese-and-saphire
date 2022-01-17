@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:sapphire_block"
     }
   ],
   "result": {
-    "item": "tnt_go_boom:deleted_mod_element",
+    "item": "tnt_go_boom:sapphire",
     "count": 9
   }
 }

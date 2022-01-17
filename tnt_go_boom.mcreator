@@ -323,12 +323,167 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bingqiling"
+    },
+    {
+      "name": "Sapphiredart",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphiredart"
+    },
+    {
+      "name": "Dartshot",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dartshot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poisonpotatodartshot",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonpotatodartshot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poisonpotato",
+      "type": "rangeditem",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonpotato"
+    },
+    {
+      "name": "Poisonpotatodart",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonpotatodart"
+    },
+    {
+      "name": "Sapphiredartcraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphiredartcraft"
+    },
+    {
+      "name": "EndermanarmorArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EndermanarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_helmet_recipe"
+    },
+    {
+      "name": "EndermanarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_body_recipe"
+    },
+    {
+      "name": "EndermanarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_leggings_recipe"
+    },
+    {
+      "name": "EndermanarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmor_armor_boots_recipe"
+    },
+    {
+      "name": "Endermanarmorhit",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermanarmorhit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.tnt_go_boom.cheese_squire_armor_chestplate": "Cheese_squire Chestplate",
+      "item.tnt_go_boom.sapphire_armor_boots": "Sapphire Boots",
+      "item.tnt_go_boom.icecreamcone": "Icecreamcone",
+      "item.tnt_go_boom.poisonpotato": "Poison potato dart",
+      "item.tnt_go_boom.cheznuggee": "Cheznuggee",
+      "item.tnt_go_boom.endermanarmor_armor_chestplate": "Enderman Chestplate",
+      "item.tnt_go_boom.sapphire_armor_helmet": "Sapphire Helmet",
+      "block.tnt_go_boom.cheeseblock": "Cheeseblock",
+      "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
+      "item.tnt_go_boom.endermanarmor_armor_boots": "Enderman Boots",
+      "block.tnt_go_boom.sapphire_block": "Block of Sapphire",
+      "item.tnt_go_boom.sapphire_shovel": "Sapphire Shovel",
+      "item.tnt_go_boom.sapphiredart": "Sapphiredart",
+      "item.tnt_go_boom.cheese_squire_armor_boots": "Cheese_squire Boots",
+      "item.tnt_go_boom.endermanarmor_armor_leggings": "Enderman Leggings",
+      "item.tnt_go_boom.cheese_squire_armor_leggings": "Cheese_squire Leggings",
+      "item.tnt_go_boom.sapphire_hoe": "Sapphire Hoe",
+      "item.tnt_go_boom.bingqiling": "Bingqiling",
+      "block.tnt_go_boom.sapphire_ore": "Sapphire Ore",
+      "item.tnt_go_boom.sapphire_pickaxe": "Sapphire Pickaxe",
+      "item.tnt_go_boom.chez": "Chez",
+      "block.tnt_go_boom.cheese_ore": "Cheese Ore",
+      "item.tnt_go_boom.sapphire": "Sapphire",
+      "item.tnt_go_boom.sapphire_axe": "Sapphire Axe",
+      "item.tnt_go_boom.endermanarmor_armor_helmet": "Enderman Helmet",
+      "item.tnt_go_boom.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "item.tnt_go_boom.cheese_squire_armor_helmet": "Cheese_squire Helmet",
+      "item.tnt_go_boom.sapphire_armor_leggings": "Sapphire Kneecap Protector"
+    }
   },
   "foldersRoot": {
     "name": "~",

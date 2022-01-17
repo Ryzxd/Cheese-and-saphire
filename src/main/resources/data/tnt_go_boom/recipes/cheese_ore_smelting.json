@@ -3,7 +3,7 @@
   "experience": 7,
   "cookingtime": 300,
   "ingredient": {
-    "item": "tnt_go_boom:deleted_mod_element"
+    "item": "tnt_go_boom:cheese_ore"
   },
   "result": {
     "item": "tnt_go_boom:cheznuggee"

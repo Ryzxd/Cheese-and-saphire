@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:sapphire"
     },
     "1": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:sapphire"
     },
     "2": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:sapphire"
     },
     "3": {
       "item": "minecraft:stick"
@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "tnt_go_boom:deleted_mod_element",
+    "item": "tnt_go_boom:sapphire_axe",
     "count": 1
   }
 }

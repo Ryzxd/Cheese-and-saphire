@@ -51,7 +51,7 @@
     "toughness": 4.0,
     "knockbackResistance": 0.2,
     "equipSound": {
-      "value": ""
+      "value": "block.amethyst_block.chime"
     },
     "repairItems": [
       {
