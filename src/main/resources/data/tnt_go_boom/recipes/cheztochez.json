@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    },
+    "1": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "2": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "3": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "4": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "5": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "6": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "7": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "8": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:deleted_mod_element",
+    "count": 1
+  }
+}

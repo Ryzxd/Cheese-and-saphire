@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnt_go_boom:chez_wood_log"
+    }
+  ],
+  "result": {
+    "item": "tnt_go_boom:chez_wood_planks",
+    "count": 4
+  }
+}

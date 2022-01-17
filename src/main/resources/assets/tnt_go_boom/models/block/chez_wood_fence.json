@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "tnt_go_boom:blocks/chez_wood_planks",
+    "particle": "tnt_go_boom:blocks/chez_wood_planks"
+  }
+}

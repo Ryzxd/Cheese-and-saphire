@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:chez"
+    },
+    "1": {
+      "item": "tnt_go_boom:chez"
+    },
+    "2": {
+      "item": "tnt_go_boom:chez"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:deleted_mod_element",
+    "count": 1
+  }
+}

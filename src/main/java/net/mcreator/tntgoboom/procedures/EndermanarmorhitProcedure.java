@@ -1,11 +1,6 @@
 package net.mcreator.tntgoboom.procedures;
 
-import net.minecraft.world.level.ClipContext;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
-
-import java.util.Collections;
+import net.minecraftforge.eventbus.api.Event;
 
 public class EndermanarmorhitProcedure {
 	public static void execute(Entity entity) {

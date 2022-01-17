@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "tnt_go_boom:blocks/chez_wood_planks"
+  }
+}

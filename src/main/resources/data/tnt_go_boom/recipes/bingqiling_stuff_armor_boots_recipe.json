@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "2": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "3": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "5": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:deleted_mod_element_boots",
+    "count": 1
+  }
+}

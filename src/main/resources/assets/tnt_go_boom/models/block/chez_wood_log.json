@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnt_go_boom:blocks/chez_wood_log_top",
+    "up": "tnt_go_boom:blocks/chez_wood_log_top",
+    "north": "tnt_go_boom:blocks/chez_wood_log_side",
+    "east": "tnt_go_boom:blocks/chez_wood_log_side",
+    "south": "tnt_go_boom:blocks/chez_wood_log_side",
+    "west": "tnt_go_boom:blocks/chez_wood_log_side",
+    "particle": "tnt_go_boom:blocks/chez_wood_log_top"
+  }
+}

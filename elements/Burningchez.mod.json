@@ -3,18 +3,18 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 100.0,
-    "cookingTime": 5000,
+    "xpReward": 1.0,
+    "cookingTime": 2000,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "Items.MILK_BUCKET"
+      "value": "CUSTOM:Stickchezwood"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:Chez"
     },
-    "name": "milktocheese",
+    "name": "burningchez",
     "namespace": "mod"
   }
 }
