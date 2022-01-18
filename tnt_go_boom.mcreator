@@ -929,14 +929,6 @@
       "registry_name": "chez_wood_fence_recipe"
     },
     {
-      "name": "Potehtoh",
-      "type": "item",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh"
-    },
-    {
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
@@ -945,76 +937,12 @@
       "registry_name": "potehtoh_ore"
     },
     {
-      "name": "PotehtohBlock",
-      "type": "block",
-      "sortid": 81,
+      "name": "Potatostick",
+      "type": "item",
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potehtoh_block"
-    },
-    {
-      "name": "PotehtohOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_ore_block_recipe"
-    },
-    {
-      "name": "PotehtohBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_block_ore_recipe"
-    },
-    {
-      "name": "PotehtohOreSmelting",
-      "type": "recipe",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_ore_smelting"
-    },
-    {
-      "name": "PotehtohPickaxe",
-      "type": "tool",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_pickaxe"
-    },
-    {
-      "name": "PotehtohAxe",
-      "type": "tool",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_axe"
-    },
-    {
-      "name": "PotehtohSword",
-      "type": "tool",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_sword"
-    },
-    {
-      "name": "PotehtohShovel",
-      "type": "tool",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_shovel"
-    },
-    {
-      "name": "PotehtohHoe",
-      "type": "tool",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_hoe"
+      "registry_name": "potatostick"
     },
     {
       "name": "PotehtohPickaxeRecipe",
@@ -1025,20 +953,12 @@
       "registry_name": "potehtoh_pickaxe_recipe"
     },
     {
-      "name": "PotehtohAxeRecipe",
+      "name": "PotehtohOreSmelting",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potehtoh_axe_recipe"
-    },
-    {
-      "name": "PotehtohSwordRecipe",
-      "type": "recipe",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_sword_recipe"
+      "registry_name": "potehtoh_ore_smelting"
     },
     {
       "name": "PotehtohShovelRecipe",
@@ -1049,66 +969,12 @@
       "registry_name": "potehtoh_shovel_recipe"
     },
     {
-      "name": "PotehtohHoeRecipe",
-      "type": "recipe",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_hoe_recipe"
-    },
-    {
-      "name": "PotehtohArmor",
-      "type": "armor",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
       "name": "PotehtohArmorHelmetRecipe",
       "type": "recipe",
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_armor_helmet_recipe"
-    },
-    {
-      "name": "PotehtohArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 97,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_armor_body_recipe"
-    },
-    {
-      "name": "PotehtohArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_armor_leggings_recipe"
-    },
-    {
-      "name": "PotehtohArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 99,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehtoh_armor_boots_recipe"
-    },
-    {
-      "name": "Potehto",
-      "type": "recipe",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potehto"
     },
     {
       "name": "Potehtohswordhit",
@@ -1127,28 +993,20 @@
       }
     },
     {
-      "name": "Potatostick",
-      "type": "item",
-      "sortid": 102,
+      "name": "PotehtohSwordRecipe",
+      "type": "recipe",
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potatostick"
+      "registry_name": "potehtoh_sword_recipe"
     },
     {
-      "name": "Potehtostick",
+      "name": "PotehtohOreBlockRecipe",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potehtostick"
-    },
-    {
-      "name": "Icecremcone",
-      "type": "recipe",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "icecremcone"
+      "registry_name": "potehtoh_ore_block_recipe"
     },
     {
       "name": "Chezdart",
@@ -1159,12 +1017,234 @@
       "registry_name": "chezdart"
     },
     {
+      "name": "Potehtoh",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh"
+    },
+    {
+      "name": "PotehtohBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_block"
+    },
+    {
+      "name": "PotehtohPickaxe",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_pickaxe"
+    },
+    {
+      "name": "PotehtohShovel",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_shovel"
+    },
+    {
+      "name": "PotehtohBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_block_ore_recipe"
+    },
+    {
+      "name": "PotehtohArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor_boots_recipe"
+    },
+    {
+      "name": "PotehtohArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor_leggings_recipe"
+    },
+    {
+      "name": "Icecremcone",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icecremcone"
+    },
+    {
+      "name": "PotehtohHoe",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_hoe"
+    },
+    {
+      "name": "PotehtohArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor_body_recipe"
+    },
+    {
+      "name": "PotehtohHoeRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_hoe_recipe"
+    },
+    {
+      "name": "Potehtostick",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtostick"
+    },
+    {
+      "name": "PotehtohAxeRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_axe_recipe"
+    },
+    {
       "name": "Chezdort",
       "type": "recipe",
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chezdort"
+    },
+    {
+      "name": "PotehtohSword",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_sword"
+    },
+    {
+      "name": "PotehtohAxe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_axe"
+    },
+    {
+      "name": "PotehtohArmor",
+      "type": "armor",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Potehto",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehto"
+    },
+    {
+      "name": "Tree_mine",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_mine",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheznomer",
+      "type": "livingentity",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheznomer"
+    },
+    {
+      "name": "Farmland",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmland",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChezBiome",
+      "type": "biome",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chez_biome"
+    },
+    {
+      "name": "Bonemeal",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Bingqiling_stuff Ore",
+    "name": "Bingqiling_Ore",
     "specialInfo": [],
     "hardness": 12.0,
     "resistance": 15.157165665103982,
@@ -130,8 +130,8 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 19,
+    "frequencyOnChunk": 22,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 256
   }

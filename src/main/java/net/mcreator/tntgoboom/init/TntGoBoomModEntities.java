@@ -16,6 +16,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.tntgoboom.entity.SapphiredartEntity;
 import net.mcreator.tntgoboom.entity.PoisonpotatoEntity;
+import net.mcreator.tntgoboom.entity.CheznomerEntity;
 import net.mcreator.tntgoboom.entity.ChezdartEntity;
 
 import java.util.List;
@@ -30,6 +31,9 @@ public class TntGoBoomModEntities {
 	public static final EntityType<PoisonpotatoEntity> POISONPOTATO = register("entitybulletpoisonpotato",
 			EntityType.Builder.<PoisonpotatoEntity>of(PoisonpotatoEntity::new, MobCategory.MISC).setCustomClientFactory(PoisonpotatoEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<CheznomerEntity> CHEZNOMER = register("cheznomer",
+			EntityType.Builder.<CheznomerEntity>of(CheznomerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CheznomerEntity::new).sized(0.9f, 0.9f));
 	public static final EntityType<ChezdartEntity> CHEZDART = register("entitybulletchezdart",
 			EntityType.Builder.<ChezdartEntity>of(ChezdartEntity::new, MobCategory.MISC).setCustomClientFactory(ChezdartEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
@@ -48,10 +52,12 @@ public class TntGoBoomModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			CheznomerEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(CHEZNOMER, CheznomerEntity.createAttributes().build());
 	}
 }

@@ -11,12 +11,12 @@
       "value": "TOOLS"
     },
     "toolType": "Hoe",
-    "harvestLevel": 4,
+    "harvestLevel": 0,
     "efficiency": 9.0,
     "attackSpeed": 1.0,
     "enchantability": 28,
-    "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "damageVsEntity": 2.0,
+    "usageCount": 127999,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -24,8 +24,14 @@
         "value": "CUSTOM:Chez"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "Bonemeal"
+    },
+    "onEntitySwing": {
+      "name": "Farmland"
+    }
   }
 }

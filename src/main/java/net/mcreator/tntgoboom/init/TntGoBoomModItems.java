@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -117,6 +118,9 @@ public class TntGoBoomModItems {
 	public static final Item POTEHTOH = register(new PotehtohItem());
 	public static final Item POTEHTOH_ORE = register(TntGoBoomModBlocks.POTEHTOH_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item POTEHTOH_BLOCK = register(TntGoBoomModBlocks.POTEHTOH_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item CHEZNOMER = register(
+			new SpawnEggItem(TntGoBoomModEntities.CHEZNOMER, -3355648, -6711040, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("cheznomer_spawn_egg"));
 	public static final Item POTEHTOH_PICKAXE = register(new PotehtohPickaxeItem());
 	public static final Item POTEHTOH_AXE = register(new PotehtohAxeItem());
 	public static final Item POTEHTOH_SWORD = register(new PotehtohSwordItem());

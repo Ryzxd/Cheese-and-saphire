@@ -7,35 +7,35 @@
   ],
   "key": {
     "0": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "1": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "2": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "3": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "4": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "5": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "6": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "7": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "8": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     }
   },
   "result": {
-    "item": "tnt_go_boom:potehtoh_block",
+    "item": "tnt_go_boom:deleted_mod_element",
     "count": 1
   }
 }

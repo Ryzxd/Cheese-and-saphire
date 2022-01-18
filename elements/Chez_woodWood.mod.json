@@ -35,7 +35,7 @@
     "name": "Chez_wood Wood",
     "specialInfo": [],
     "hardness": 20.0,
-    "resistance": 12.619146889603867,
+    "resistance": 256.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -67,7 +67,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 50,
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,

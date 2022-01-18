@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "bingqiling_stuff_ingot",
     "customModelName": "Normal",
-    "name": "Bingqiling_stuff",
+    "name": "Bingqiling_ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

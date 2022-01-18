@@ -11,12 +11,12 @@
       "value": "TOOLS"
     },
     "toolType": "Spade",
-    "harvestLevel": 4,
-    "efficiency": 9.0,
+    "harvestLevel": 0,
+    "efficiency": 69.5,
     "attackSpeed": 1.0,
-    "enchantability": 28,
-    "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "enchantability": 100,
+    "damageVsEntity": 1.0,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -24,7 +24,7 @@
         "value": "CUSTOM:Chez"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

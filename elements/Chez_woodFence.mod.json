@@ -35,7 +35,7 @@
     ],
     "name": "Chez_wood Fence",
     "specialInfo": [],
-    "hardness": 20.0,
+    "hardness": 256.0,
     "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,

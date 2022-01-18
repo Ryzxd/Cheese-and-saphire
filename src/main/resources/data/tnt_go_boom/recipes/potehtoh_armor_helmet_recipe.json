@@ -6,23 +6,23 @@
   ],
   "key": {
     "0": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "1": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "2": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "3": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     },
     "5": {
-      "item": "tnt_go_boom:potehtoh"
+      "item": "tnt_go_boom:deleted_mod_element"
     }
   },
   "result": {
-    "item": "tnt_go_boom:potehtoh_armor_helmet",
+    "item": "tnt_go_boom:deleted_mod_element_helmet",
     "count": 1
   }
 }
