@@ -1,7 +1,14 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
+import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.tntgoboom.init.TntGoBoomModItems;
 
 public class CheztoolsHoeItem extends HoeItem {
 	public CheztoolsHoeItem() {
@@ -29,13 +36,7 @@ public class CheztoolsHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TntGoBoomModItems.CHEZ));
 			}
-		},
-
-				0, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-
+		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("cheztools_hoe");
 	}
-
 }

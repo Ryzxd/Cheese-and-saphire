@@ -23,9 +23,6 @@
     "animation": "spear",
     "enableMeleeDamage": true,
     "damageVsEntity": 5.0,
-    "onRangedItemUsed": {
-      "name": "Dartshot"
-    },
     "bulletPower": 1.5,
     "bulletDamage": 7.5,
     "bulletKnockback": 7,
@@ -35,6 +32,12 @@
       "value": "CUSTOM:Sapphiredart"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "Dartshot"
+    },
+    "onBulletHitsEntity": {
+      "name": "Dartshot"
+    }
   }
 }

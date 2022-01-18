@@ -18,7 +18,6 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
-import net.mcreator.tntgoboom.procedures.DartshotProcedure;
 import net.mcreator.tntgoboom.entity.SapphiredartEntity;
 
 import com.google.common.collect.Multimap;
@@ -70,8 +69,6 @@ public class SapphiredartItem extends Item {
 				SapphiredartEntity entityarrow = SapphiredartEntity.shoot(world, entity, world.getRandom(), 1.5f, 7.5, 7);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
-
-				DartshotProcedure.execute(entity);
 			}
 		}
 	}

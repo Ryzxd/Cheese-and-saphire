@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 10.7,
+  "cookingtime": 500,
+  "ingredient": {
+    "item": "tnt_go_boom:potehtoh_ore"
+  },
+  "result": {
+    "item": "tnt_go_boom:potehtoh"
+  }
+}

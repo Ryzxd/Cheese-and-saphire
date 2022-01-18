@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "1": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "2": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "4": {
+      "item": "tnt_go_boom:potatostick"
+    },
+    "7": {
+      "item": "tnt_go_boom:potatostick"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:potehtoh_pickaxe",
+    "count": 1
+  }
+}

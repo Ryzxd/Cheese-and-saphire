@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "1": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "2": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "3": {
+      "item": "tnt_go_boom:potatostick"
+    },
+    "5": {
+      "item": "tnt_go_boom:potatostick"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:potehtoh_axe",
+    "count": 1
+  }
+}

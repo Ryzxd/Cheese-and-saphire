@@ -6,20 +6,20 @@
   ],
   "key": {
     "0": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:bingqiling_stuff_ingot"
     },
     "2": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:bingqiling_stuff_ingot"
     },
     "3": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:bingqiling_stuff_ingot"
     },
     "5": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:bingqiling_stuff_ingot"
     }
   },
   "result": {
-    "item": "tnt_go_boom:deleted_mod_element_boots",
+    "item": "tnt_go_boom:bingqiling_stuff_armor_boots",
     "count": 1
   }
 }

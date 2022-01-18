@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "potehtostick",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.BAKED_POTATO"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.BAKED_POTATO"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.POTATO"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Potatostick"
+    },
+    "name": "potehtostick",
+    "namespace": "mod"
+  }
+}

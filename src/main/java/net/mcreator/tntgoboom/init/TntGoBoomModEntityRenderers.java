@@ -17,5 +17,6 @@ public class TntGoBoomModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(TntGoBoomModEntities.SAPPHIREDART, ThrownItemRenderer::new);
 		event.registerEntityRenderer(TntGoBoomModEntities.POISONPOTATO, ThrownItemRenderer::new);
+		event.registerEntityRenderer(TntGoBoomModEntities.CHEZDART, ThrownItemRenderer::new);
 	}
 }

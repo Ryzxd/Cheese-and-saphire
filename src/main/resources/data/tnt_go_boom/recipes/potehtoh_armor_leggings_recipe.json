@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "1": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "2": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "3": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "5": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "6": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "8": {
+      "item": "tnt_go_boom:potehtoh"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:potehtoh_armor_leggings",
+    "count": 1
+  }
+}

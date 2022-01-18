@@ -31,11 +31,14 @@
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Items.ARROW"
+      "value": "CUSTOM:Poisonpotato"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",
     "onBulletHitsPlayer": {
+      "name": "Poisonpotatodartshot"
+    },
+    "onBulletHitsEntity": {
       "name": "Poisonpotatodartshot"
     }
   }

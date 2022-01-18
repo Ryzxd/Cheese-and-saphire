@@ -16,6 +16,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.tntgoboom.entity.SapphiredartEntity;
 import net.mcreator.tntgoboom.entity.PoisonpotatoEntity;
+import net.mcreator.tntgoboom.entity.ChezdartEntity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -28,6 +29,9 @@ public class TntGoBoomModEntities {
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<PoisonpotatoEntity> POISONPOTATO = register("entitybulletpoisonpotato",
 			EntityType.Builder.<PoisonpotatoEntity>of(PoisonpotatoEntity::new, MobCategory.MISC).setCustomClientFactory(PoisonpotatoEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<ChezdartEntity> CHEZDART = register("entitybulletchezdart",
+			EntityType.Builder.<ChezdartEntity>of(ChezdartEntity::new, MobCategory.MISC).setCustomClientFactory(ChezdartEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

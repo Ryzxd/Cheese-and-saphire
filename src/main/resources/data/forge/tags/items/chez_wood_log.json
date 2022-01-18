@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "tnt_go_boom:chez_wood_log",
+    "tnt_go_boom:chez_wood_wood"
+  ]
 }

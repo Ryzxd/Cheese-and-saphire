@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "1": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "2": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "3": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "5": {
+      "item": "tnt_go_boom:potehtoh"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:potehtoh_armor_helmet",
+    "count": 1
+  }
+}

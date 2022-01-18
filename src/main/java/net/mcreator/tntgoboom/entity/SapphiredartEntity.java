@@ -19,6 +19,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.tntgoboom.procedures.DartshotProcedure;
 import net.mcreator.tntgoboom.init.TntGoBoomModItems;
 import net.mcreator.tntgoboom.init.TntGoBoomModEntities;
 
@@ -59,9 +60,30 @@ public class SapphiredartEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	@Override
+	public void playerTouch(Player entity) {
+		super.playerTouch(entity);
+		Entity sourceentity = this.getOwner();
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level;
+		Entity imediatesourceentity = this;
+
+		DartshotProcedure.execute(world, x, y, z);
+	}
+
+	@Override
 	protected void doPostHurtEffects(LivingEntity entity) {
 		super.doPostHurtEffects(entity);
 		entity.setArrowCount(entity.getArrowCount() - 1);
+		Entity sourceentity = this.getOwner();
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level;
+		Entity imediatesourceentity = this;
+
+		DartshotProcedure.execute(world, x, y, z);
 	}
 
 	@Override

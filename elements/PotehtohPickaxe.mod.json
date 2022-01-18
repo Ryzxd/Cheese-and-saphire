@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "potehtoh_pickaxe",
+    "customModelName": "Normal",
+    "name": "Potehtoh Pickaxe",
+    "specialInfo": [
+      "da mine boi"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 7,
+    "efficiency": 55.0,
+    "attackSpeed": 1.0,
+    "enchantability": 28,
+    "damageVsEntity": 2.0,
+    "usageCount": 550,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Potehtoh"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

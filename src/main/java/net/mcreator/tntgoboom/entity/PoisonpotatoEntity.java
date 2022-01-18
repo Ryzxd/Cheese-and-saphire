@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -21,6 +20,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.tntgoboom.procedures.PoisonpotatodartshotProcedure;
+import net.mcreator.tntgoboom.init.TntGoBoomModItems;
 import net.mcreator.tntgoboom.init.TntGoBoomModEntities;
 
 import java.util.Random;
@@ -51,7 +51,7 @@ public class PoisonpotatoEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.ARROW);
+		return new ItemStack(TntGoBoomModItems.POISONPOTATO);
 	}
 
 	@Override
@@ -69,13 +69,21 @@ public class PoisonpotatoEntity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity imediatesourceentity = this;
 
-		PoisonpotatodartshotProcedure.execute(entity);
+		PoisonpotatodartshotProcedure.execute(world, x, y, z);
 	}
 
 	@Override
 	protected void doPostHurtEffects(LivingEntity entity) {
 		super.doPostHurtEffects(entity);
 		entity.setArrowCount(entity.getArrowCount() - 1);
+		Entity sourceentity = this.getOwner();
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level;
+		Entity imediatesourceentity = this;
+
+		PoisonpotatodartshotProcedure.execute(world, x, y, z);
 	}
 
 	@Override

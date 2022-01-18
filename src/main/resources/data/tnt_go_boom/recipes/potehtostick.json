@@ -1,0 +1,42 @@
+{
+  "group": "potehtostick",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potato"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:potato"
+    },
+    "3": {
+      "item": "minecraft:baked_potato"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:baked_potato"
+    },
+    "6": {
+      "item": "minecraft:potato"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:potatostick",
+    "count": 6
+  }
+}
