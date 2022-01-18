@@ -1,10 +1,25 @@
 
 package net.mcreator.tntgoboom.item;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.tntgoboom.procedures.EndermanarmorhitProcedure;
 
 public abstract class EndermanarmorArmorItem extends ArmorItem {
-
 	public EndermanarmorArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -50,10 +65,8 @@ public abstract class EndermanarmorArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends EndermanarmorArmorItem {
-
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-
 			setRegistryName("endermanarmor_armor_helmet");
 		}
 
@@ -69,10 +82,8 @@ public abstract class EndermanarmorArmorItem extends ArmorItem {
 	}
 
 	public static class Chestplate extends EndermanarmorArmorItem {
-
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-
 			setRegistryName("endermanarmor_armor_chestplate");
 		}
 
@@ -88,10 +99,8 @@ public abstract class EndermanarmorArmorItem extends ArmorItem {
 	}
 
 	public static class Leggings extends EndermanarmorArmorItem {
-
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-
 			setRegistryName("endermanarmor_armor_leggings");
 		}
 
@@ -107,10 +116,8 @@ public abstract class EndermanarmorArmorItem extends ArmorItem {
 	}
 
 	public static class Boots extends EndermanarmorArmorItem {
-
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-
 			setRegistryName("endermanarmor_armor_boots");
 		}
 
@@ -124,5 +131,4 @@ public abstract class EndermanarmorArmorItem extends ArmorItem {
 			EndermanarmorhitProcedure.execute(entity);
 		}
 	}
-
 }
