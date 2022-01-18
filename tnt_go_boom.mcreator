@@ -724,7 +724,7 @@
       "name": "Chez_woodButton",
       "type": "block",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chez_wood_button"
     },
@@ -1028,7 +1028,7 @@
       "name": "PotehtohBlock",
       "type": "block",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_block"
     },
@@ -1036,7 +1036,7 @@
       "name": "PotehtohPickaxe",
       "type": "tool",
       "sortid": 85,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_pickaxe"
     },
@@ -1044,7 +1044,7 @@
       "name": "PotehtohShovel",
       "type": "tool",
       "sortid": 88,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_shovel"
     },
@@ -1132,7 +1132,7 @@
       "name": "PotehtohSword",
       "type": "tool",
       "sortid": 87,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_sword"
     },
@@ -1140,7 +1140,7 @@
       "name": "PotehtohAxe",
       "type": "tool",
       "sortid": 86,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_axe"
     },
@@ -1148,7 +1148,7 @@
       "name": "PotehtohArmor",
       "type": "armor",
       "sortid": 95,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_armor",
       "metadata": {
@@ -1170,7 +1170,7 @@
       "name": "Tree_mine",
       "type": "procedure",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_mine",
       "metadata": {
@@ -1194,7 +1194,7 @@
       "name": "Cheznomer",
       "type": "livingentity",
       "sortid": 84,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cheznomer"
     },
@@ -1202,7 +1202,7 @@
       "name": "Farmland",
       "type": "procedure",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "farmland",
       "metadata": {
@@ -1230,7 +1230,7 @@
       "name": "Bonemeal",
       "type": "procedure",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bonemeal",
       "metadata": {
@@ -1258,8 +1258,8 @@
       "item.tnt_go_boom.cheznuggee": "Cheznuggee",
       "item.tnt_go_boom.endermanarmor_armor_chestplate": "Enderman Chestplate",
       "item.tnt_go_boom.sapphire_armor_helmet": "Sapphire Helmet",
-      "block.tnt_go_boom.chez_wood_log": "Chez_wood Log",
       "item.tnt_go_boom.cheztools_pickaxe": "Cheztools Pickaxe",
+      "block.tnt_go_boom.chez_wood_log": "Chez_wood Log",
       "item.tnt_go_boom.stickchezwood": "Stickchezwood",
       "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
       "block.tnt_go_boom.chezwoodwoodwood": "Chezwoodwoodwood",
@@ -1273,6 +1273,7 @@
       "item.tnt_go_boom.cheztools_axe": "Cheztools Axe",
       "item.tnt_go_boom.potehtoh_armor_chestplate": "Potehtoh Chestplate",
       "item.tnt_go_boom.potehtoh_armor_leggings": "Potehtoh Leggings",
+      "biome.tnt_go_boom.chez_biome": "Chez Biome",
       "item.tnt_go_boom.bingqiling_stuff_ingot": "Bingqiling_stuff",
       "item.tnt_go_boom.bingqiling_stuff_armor_boots": "Bingqiling Boots",
       "item.tnt_go_boom.bingqiling_stuff_shovel": "Bingqiling_stuff Shovel",
@@ -1304,7 +1305,7 @@
       "item.tnt_go_boom.cheztools_hoe": "Cheztools Hoe",
       "item.tnt_go_boom.potehtoh_hoe": "Potehtoh Hoe",
       "item.tnt_go_boom.chezdart": "Chez dart",
-      "block.tnt_go_boom.bingqiling_stuff_ore": "Bingqiling_stuff Ore",
+      "block.tnt_go_boom.bingqiling_stuff_ore": "Bingqiling_Ore",
       "item.tnt_go_boom.sapphiredart": "Sapphiredart",
       "item.tnt_go_boom.cheese_squire_armor_boots": "Cheese_squire Boots",
       "item.tnt_go_boom.endermanarmor_armor_leggings": "Enderman kneecap protector",
