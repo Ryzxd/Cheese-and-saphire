@@ -36,7 +36,7 @@
     "name": "Chez_wood Slab",
     "specialInfo": [],
     "hardness": 20.0,
-    "resistance": 30.0,
+    "resistance": 256.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

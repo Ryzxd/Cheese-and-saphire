@@ -1,7 +1,14 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.tntgoboom.init.TntGoBoomModItems;
 
 public class CheztoolsPickaxeItem extends PickaxeItem {
 	public CheztoolsPickaxeItem() {
@@ -29,13 +36,7 @@ public class CheztoolsPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TntGoBoomModItems.CHEZ));
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-
+		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("cheztools_pickaxe");
 	}
-
 }

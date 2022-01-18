@@ -344,7 +344,7 @@
       "name": "Chez_woodLeaves",
       "type": "block",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chez_wood_leaves"
     },
@@ -496,7 +496,7 @@
       "name": "CheztoolsSword",
       "type": "tool",
       "sortid": 45,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cheztools_sword"
     },
@@ -504,7 +504,7 @@
       "name": "CheztoolsShovel",
       "type": "tool",
       "sortid": 46,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cheztools_shovel"
     },
@@ -576,7 +576,7 @@
       "name": "Stickchezwood",
       "type": "item",
       "sortid": 55,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "stickchezwood"
     },
@@ -608,7 +608,7 @@
       "name": "Bingqiling_stuffIngot",
       "type": "item",
       "sortid": 58,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bingqiling_stuff_ingot"
     },
@@ -616,7 +616,7 @@
       "name": "Bingqiling_stuffOre",
       "type": "block",
       "sortid": 59,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bingqiling_stuff_ore"
     },
@@ -624,7 +624,7 @@
       "name": "Bingqiling_stuffBlock",
       "type": "block",
       "sortid": 60,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bingqiling_stuff_block"
     },
@@ -664,7 +664,7 @@
       "name": "Bingqiling_stuffAxe",
       "type": "tool",
       "sortid": 65,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bingqiling_stuff_axe"
     },
@@ -672,7 +672,7 @@
       "name": "Bingqiling_stuffSword",
       "type": "tool",
       "sortid": 66,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bingqiling_stuff_sword"
     },
@@ -902,7 +902,7 @@
       "name": "Endermanarmorhit",
       "type": "procedure",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "endermanarmorhit",
       "metadata": {
@@ -950,7 +950,7 @@
       "name": "EndermanarmorArmor",
       "type": "armor",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "endermanarmor_armor",
       "metadata": {
@@ -1003,8 +1003,8 @@
       "item.tnt_go_boom.bingqiling_stuff_hoe": "Bingqiling_stuff Hoe",
       "block.tnt_go_boom.chez_wood_slab": "Chez_wood Slab",
       "block.tnt_go_boom.chez_wood_pressure_plate": "Chez_wood Pressure Plate",
-      "item.tnt_go_boom.cheztools_axe": "Cheztools Axe",
       "biome.tnt_go_boom.chez_biome": "Chez Biome",
+      "item.tnt_go_boom.cheztools_axe": "Cheztools Axe",
       "item.tnt_go_boom.bingqiling_stuff_ingot": "Bingqiling_ingot",
       "item.tnt_go_boom.bingqiling_stuff_armor_boots": "Bingqiling Boots",
       "item.tnt_go_boom.bingqiling_stuff_shovel": "Bingqiling_stuff Shovel",

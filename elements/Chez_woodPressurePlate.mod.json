@@ -36,7 +36,7 @@
     "name": "Chez_wood Pressure Plate",
     "specialInfo": [],
     "hardness": 20.0,
-    "resistance": 30.0,
+    "resistance": 256.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -95,7 +95,7 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,

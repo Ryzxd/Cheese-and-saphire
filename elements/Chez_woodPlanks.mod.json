@@ -35,7 +35,7 @@
     "name": "Chez_wood Planks",
     "specialInfo": [],
     "hardness": 20.0,
-    "resistance": 18.9287203344058,
+    "resistance": 256.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
