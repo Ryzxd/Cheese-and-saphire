@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Saphire",
+    "icon": {
+      "value": "CUSTOM:Sapphire"
+    },
+    "showSearch": true
+  }
+}

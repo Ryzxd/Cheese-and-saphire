@@ -25,6 +25,7 @@ import net.mcreator.tntgoboom.item.SapphireAxeItem;
 import net.mcreator.tntgoboom.item.SapphireArmorItem;
 import net.mcreator.tntgoboom.item.PoisonpotatoItem;
 import net.mcreator.tntgoboom.item.IcecreamconeItem;
+import net.mcreator.tntgoboom.item.GungunItem;
 import net.mcreator.tntgoboom.item.EndermanarmorArmorItem;
 import net.mcreator.tntgoboom.item.CheztoolsSwordItem;
 import net.mcreator.tntgoboom.item.CheztoolsShovelItem;
@@ -34,6 +35,7 @@ import net.mcreator.tntgoboom.item.CheztoolsAxeItem;
 import net.mcreator.tntgoboom.item.CheznuggeeItem;
 import net.mcreator.tntgoboom.item.ChezItem;
 import net.mcreator.tntgoboom.item.Cheese_squireArmorItem;
+import net.mcreator.tntgoboom.item.BooletoItem;
 import net.mcreator.tntgoboom.item.Bingqiling_stuffSwordItem;
 import net.mcreator.tntgoboom.item.Bingqiling_stuffShovelItem;
 import net.mcreator.tntgoboom.item.Bingqiling_stuffPickaxeItem;
@@ -42,6 +44,7 @@ import net.mcreator.tntgoboom.item.Bingqiling_stuffHoeItem;
 import net.mcreator.tntgoboom.item.Bingqiling_stuffAxeItem;
 import net.mcreator.tntgoboom.item.Bingqiling_stuffArmorItem;
 import net.mcreator.tntgoboom.item.BingqilingItem;
+import net.mcreator.tntgoboom.item.ArItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -109,6 +112,9 @@ public class TntGoBoomModItems {
 	public static final Item CHEZNOMER = register(
 			new SpawnEggItem(TntGoBoomModEntities.CHEZNOMER, -3355648, -6711040, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("cheznomer_spawn_egg"));
+	public static final Item GUNGUN = register(new GungunItem());
+	public static final Item BOOLETO = register(new BooletoItem());
+	public static final Item AR = register(new ArItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

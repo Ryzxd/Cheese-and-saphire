@@ -16,7 +16,9 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.tntgoboom.entity.SapphiredartEntity;
 import net.mcreator.tntgoboom.entity.PoisonpotatoEntity;
+import net.mcreator.tntgoboom.entity.GungunEntity;
 import net.mcreator.tntgoboom.entity.CheznomerEntity;
+import net.mcreator.tntgoboom.entity.ArEntity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -33,6 +35,11 @@ public class TntGoBoomModEntities {
 	public static final EntityType<CheznomerEntity> CHEZNOMER = register("cheznomer",
 			EntityType.Builder.<CheznomerEntity>of(CheznomerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CheznomerEntity::new).sized(0.9f, 0.9f));
+	public static final EntityType<GungunEntity> GUNGUN = register("entitybulletgungun",
+			EntityType.Builder.<GungunEntity>of(GungunEntity::new, MobCategory.MISC).setCustomClientFactory(GungunEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<ArEntity> AR = register("entitybulletar", EntityType.Builder.<ArEntity>of(ArEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(ArEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);

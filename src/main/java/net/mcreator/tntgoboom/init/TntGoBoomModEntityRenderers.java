@@ -20,5 +20,7 @@ public class TntGoBoomModEntityRenderers {
 		event.registerEntityRenderer(TntGoBoomModEntities.SAPPHIREDART, ThrownItemRenderer::new);
 		event.registerEntityRenderer(TntGoBoomModEntities.POISONPOTATO, ThrownItemRenderer::new);
 		event.registerEntityRenderer(TntGoBoomModEntities.CHEZNOMER, CheznomerRenderer::new);
+		event.registerEntityRenderer(TntGoBoomModEntities.GUNGUN, ThrownItemRenderer::new);
+		event.registerEntityRenderer(TntGoBoomModEntities.AR, ThrownItemRenderer::new);
 	}
 }
