@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "1": {
+      "item": "tnt_go_boom:deleted_mod_element"
+    },
+    "2": {
+      "item": "tnt_go_boom:potatostick"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:deleted_mod_element",
+    "count": 1
+  }
+}

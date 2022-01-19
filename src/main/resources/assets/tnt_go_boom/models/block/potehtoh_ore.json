@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tnt_go_boom:blocks/potehtoh_ore",
+    "particle": "tnt_go_boom:blocks/potehtoh_ore"
+  }
+}

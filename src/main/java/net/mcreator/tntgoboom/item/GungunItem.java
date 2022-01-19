@@ -1,29 +1,11 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ProjectileWeaponItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.tntgoboom.init.TntGoBoomModItems;
-import net.mcreator.tntgoboom.entity.GungunEntity;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class GungunItem extends Item {
+
 	public GungunItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(100));
 		setRegistryName("gungun");
@@ -59,6 +41,7 @@ public class GungunItem extends Item {
 			double z = entity.getZ();
 			if (true) {
 				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == TntGoBoomModItems.BOOLETO);
+
 				if (stack == ItemStack.EMPTY) {
 					for (int i = 0; i < entity.getInventory().items.size(); i++) {
 						ItemStack teststack = entity.getInventory().items.get(i);
@@ -68,9 +51,13 @@ public class GungunItem extends Item {
 						}
 					}
 				}
+
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
+
 					GungunEntity entityarrow = GungunEntity.shoot(world, entity, world.getRandom(), 100f, 15, 1);
+
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
+
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
 					} else {
@@ -87,8 +74,10 @@ public class GungunItem extends Item {
 								entity.getInventory().removeItem(stack);
 						}
 					}
+
 				}
 			}
 		}
 	}
+
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnt_go_boom:potehtoh_block"
+    }
+  ],
+  "result": {
+    "item": "tnt_go_boom:potehtoh",
+    "count": 9
+  }
+}

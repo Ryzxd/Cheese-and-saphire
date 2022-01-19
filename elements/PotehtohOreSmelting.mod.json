@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 10.7,
+    "cookingTime": 500,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:PotehtohOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Potehtoh"
+    },
+    "name": "potehtoh_ore_smelting",
+    "namespace": "mod"
+  }
+}

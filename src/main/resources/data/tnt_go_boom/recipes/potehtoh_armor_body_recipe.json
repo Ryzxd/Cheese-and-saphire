@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "2": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "3": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "4": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "5": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "6": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "7": {
+      "item": "tnt_go_boom:potehtoh"
+    },
+    "8": {
+      "item": "tnt_go_boom:potehtoh"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:deleted_mod_element_chestplate",
+    "count": 1
+  }
+}

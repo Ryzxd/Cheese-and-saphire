@@ -14,6 +14,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.tntgoboom.block.SapphireOreBlock;
 import net.mcreator.tntgoboom.block.SapphireBlockBlock;
+import net.mcreator.tntgoboom.block.PotehtohOreBlock;
+import net.mcreator.tntgoboom.block.PotehtohBlockBlock;
 import net.mcreator.tntgoboom.block.ChezwoodwoodwoodBlock;
 import net.mcreator.tntgoboom.block.Chez_woodWoodBlock;
 import net.mcreator.tntgoboom.block.Chez_woodStairsBlock;
@@ -53,6 +55,8 @@ public class TntGoBoomModBlocks {
 	public static final Block CHEZWOODWOODWOOD = register(new ChezwoodwoodwoodBlock());
 	public static final Block BINGQILING_STUFF_ORE = register(new Bingqiling_stuffOreBlock());
 	public static final Block BINGQILING_STUFF_BLOCK = register(new Bingqiling_stuffBlockBlock());
+	public static final Block POTEHTOH_ORE = register(new PotehtohOreBlock());
+	public static final Block POTEHTOH_BLOCK = register(new PotehtohBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -69,6 +73,7 @@ public class TntGoBoomModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			SapphireOreBlock.registerRenderLayer();
+			PotehtohOreBlock.registerRenderLayer();
 		}
 	}
 }

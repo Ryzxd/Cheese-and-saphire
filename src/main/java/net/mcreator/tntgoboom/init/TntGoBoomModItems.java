@@ -23,6 +23,14 @@ import net.mcreator.tntgoboom.item.SapphireItem;
 import net.mcreator.tntgoboom.item.SapphireHoeItem;
 import net.mcreator.tntgoboom.item.SapphireAxeItem;
 import net.mcreator.tntgoboom.item.SapphireArmorItem;
+import net.mcreator.tntgoboom.item.PotehtohSwordItem;
+import net.mcreator.tntgoboom.item.PotehtohShovelItem;
+import net.mcreator.tntgoboom.item.PotehtohPickaxeItem;
+import net.mcreator.tntgoboom.item.PotehtohItem;
+import net.mcreator.tntgoboom.item.PotehtohHoeItem;
+import net.mcreator.tntgoboom.item.PotehtohAxeItem;
+import net.mcreator.tntgoboom.item.PotehtohArmorItem;
+import net.mcreator.tntgoboom.item.PotatostickItem;
 import net.mcreator.tntgoboom.item.PoisonpotatoItem;
 import net.mcreator.tntgoboom.item.IcecreamconeItem;
 import net.mcreator.tntgoboom.item.GungunItem;
@@ -33,6 +41,7 @@ import net.mcreator.tntgoboom.item.CheztoolsPickaxeItem;
 import net.mcreator.tntgoboom.item.CheztoolsHoeItem;
 import net.mcreator.tntgoboom.item.CheztoolsAxeItem;
 import net.mcreator.tntgoboom.item.CheznuggeeItem;
+import net.mcreator.tntgoboom.item.ChezdartItem;
 import net.mcreator.tntgoboom.item.ChezItem;
 import net.mcreator.tntgoboom.item.Cheese_squireArmorItem;
 import net.mcreator.tntgoboom.item.BooletoItem;
@@ -109,12 +118,26 @@ public class TntGoBoomModItems {
 	public static final Item BINGQILING_STUFF_ARMOR_CHESTPLATE = register(new Bingqiling_stuffArmorItem.Chestplate());
 	public static final Item BINGQILING_STUFF_ARMOR_LEGGINGS = register(new Bingqiling_stuffArmorItem.Leggings());
 	public static final Item BINGQILING_STUFF_ARMOR_BOOTS = register(new Bingqiling_stuffArmorItem.Boots());
+	public static final Item POTEHTOH = register(new PotehtohItem());
+	public static final Item POTEHTOH_ORE = register(TntGoBoomModBlocks.POTEHTOH_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item POTEHTOH_BLOCK = register(TntGoBoomModBlocks.POTEHTOH_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item CHEZNOMER = register(
 			new SpawnEggItem(TntGoBoomModEntities.CHEZNOMER, -3355648, -6711040, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("cheznomer_spawn_egg"));
+	public static final Item POTEHTOH_PICKAXE = register(new PotehtohPickaxeItem());
+	public static final Item POTEHTOH_AXE = register(new PotehtohAxeItem());
+	public static final Item POTEHTOH_SWORD = register(new PotehtohSwordItem());
+	public static final Item POTEHTOH_SHOVEL = register(new PotehtohShovelItem());
 	public static final Item GUNGUN = register(new GungunItem());
+	public static final Item POTEHTOH_HOE = register(new PotehtohHoeItem());
 	public static final Item BOOLETO = register(new BooletoItem());
 	public static final Item AR = register(new ArItem());
+	public static final Item POTEHTOH_ARMOR_HELMET = register(new PotehtohArmorItem.Helmet());
+	public static final Item POTEHTOH_ARMOR_CHESTPLATE = register(new PotehtohArmorItem.Chestplate());
+	public static final Item POTEHTOH_ARMOR_LEGGINGS = register(new PotehtohArmorItem.Leggings());
+	public static final Item POTEHTOH_ARMOR_BOOTS = register(new PotehtohArmorItem.Boots());
+	public static final Item POTATOSTICK = register(new PotatostickItem());
+	public static final Item CHEZDART = register(new ChezdartItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

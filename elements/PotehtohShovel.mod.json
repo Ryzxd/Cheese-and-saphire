@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "potehtoh_shovel",
+    "customModelName": "Normal",
+    "name": "Potehtoh Shovel",
+    "specialInfo": [
+      "da smacker"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 50.0,
+    "attackSpeed": 1.0,
+    "enchantability": 28,
+    "damageVsEntity": 2.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Potehtoh"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

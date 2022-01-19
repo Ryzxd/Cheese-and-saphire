@@ -22,7 +22,7 @@ public class SapphireSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 5.5f;
+				return 7.5f;
 			}
 
 			public int getLevel() {
@@ -36,7 +36,7 @@ public class SapphireSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TntGoBoomModItems.SAPPHIRE));
 			}
-		}, 3, -1f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, 0f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		setRegistryName("sapphire_sword");
 	}
 }

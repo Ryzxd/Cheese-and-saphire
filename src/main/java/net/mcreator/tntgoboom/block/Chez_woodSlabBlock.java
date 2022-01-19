@@ -9,7 +9,9 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -18,7 +20,7 @@ import java.util.Collections;
 
 public class Chez_woodSlabBlock extends SlabBlock {
 	public Chez_woodSlabBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(20f, 256f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(20f, 256f).requiresCorrectToolForDrops());
 		setRegistryName("chez_wood_slab");
 	}
 
@@ -30,6 +32,13 @@ public class Chez_woodSlabBlock extends SlabBlock {
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 50;
+	}
+
+	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 0;
+		return false;
 	}
 
 	@Override

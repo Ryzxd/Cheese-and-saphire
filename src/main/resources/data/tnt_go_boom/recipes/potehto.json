@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_block"
+    },
+    "1": {
+      "item": "minecraft:potato"
+    },
+    "2": {
+      "item": "minecraft:gold_block"
+    },
+    "3": {
+      "item": "minecraft:potato"
+    },
+    "4": {
+      "item": "tnt_go_boom:sapphire_block"
+    },
+    "5": {
+      "item": "minecraft:potato"
+    },
+    "6": {
+      "item": "tnt_go_boom:cheeseblock"
+    },
+    "7": {
+      "item": "minecraft:potato"
+    },
+    "8": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "tnt_go_boom:potehtoh",
+    "count": 1
+  }
+}

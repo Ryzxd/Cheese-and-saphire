@@ -993,12 +993,12 @@
       "registry_name": "saphire"
     },
     {
-      "name": "Chezthing",
-      "type": "tab",
-      "sortid": 86,
+      "name": "Ar",
+      "type": "rangeditem",
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chezthing"
+      "registry_name": "ar"
     },
     {
       "name": "Booletrecipei",
@@ -1009,14 +1009,6 @@
       "registry_name": "booletrecipei"
     },
     {
-      "name": "Gungun",
-      "type": "rangeditem",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gungun"
-    },
-    {
       "name": "Booleto",
       "type": "item",
       "sortid": 90,
@@ -1025,12 +1017,258 @@
       "registry_name": "booleto"
     },
     {
-      "name": "Ar",
+      "name": "Gungun",
       "type": "rangeditem",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gungun"
+    },
+    {
+      "name": "Chezthing",
+      "type": "tab",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chezthing"
+    },
+    {
+      "name": "PotehtohOre",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_ore"
+    },
+    {
+      "name": "Potatostick",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potatostick"
+    },
+    {
+      "name": "PotehtohPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_pickaxe_recipe"
+    },
+    {
+      "name": "PotehtohOreSmelting",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_ore_smelting"
+    },
+    {
+      "name": "PotehtohShovelRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_shovel_recipe"
+    },
+    {
+      "name": "PotehtohArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor_helmet_recipe"
+    },
+    {
+      "name": "Potehtohswordhit",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtohswordhit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotehtohSwordRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_sword_recipe"
+    },
+    {
+      "name": "PotehtohOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_ore_block_recipe"
+    },
+    {
+      "name": "Chezdart",
+      "type": "rangeditem",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chezdart"
+    },
+    {
+      "name": "Potehtoh",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh"
+    },
+    {
+      "name": "PotehtohBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "potehtoh_block"
+    },
+    {
+      "name": "PotehtohPickaxe",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "potehtoh_pickaxe"
+    },
+    {
+      "name": "PotehtohShovel",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "potehtoh_shovel"
+    },
+    {
+      "name": "PotehtohBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_block_ore_recipe"
+    },
+    {
+      "name": "PotehtohArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor_boots_recipe"
+    },
+    {
+      "name": "PotehtohArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor_leggings_recipe"
+    },
+    {
+      "name": "Icecremcone",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icecremcone"
+    },
+    {
+      "name": "PotehtohHoe",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_hoe"
+    },
+    {
+      "name": "PotehtohArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor_body_recipe"
+    },
+    {
+      "name": "PotehtohHoeRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtoh_hoe_recipe"
+    },
+    {
+      "name": "Potehtostick",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehtostick"
+    },
+    {
+      "name": "PotehtohAxeRecipe",
+      "type": "recipe",
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ar"
+      "registry_name": "potehtoh_axe_recipe"
+    },
+    {
+      "name": "Chezdort",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chezdort"
+    },
+    {
+      "name": "PotehtohSword",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "potehtoh_sword"
+    },
+    {
+      "name": "PotehtohAxe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "potehtoh_axe"
+    },
+    {
+      "name": "PotehtohArmor",
+      "type": "armor",
+      "sortid": 95,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "potehtoh_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Potehto",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potehto"
     }
   ],
   "variable_elements": [],
@@ -1045,16 +1283,14 @@
       "block.tnt_go_boom.chez_wood_log": "Chez_wood Log",
       "item.tnt_go_boom.cheztools_pickaxe": "Cheztools Pickaxe",
       "item.tnt_go_boom.stickchezwood": "Stickchezwood",
-      "item.tnt_go_boom.booleto": "Booleto",
       "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
       "block.tnt_go_boom.chezwoodwoodwood": "Chezwoodwoodwood",
       "item.tnt_go_boom.endermanarmor_armor_boots": "Enderman Boots",
-      "itemGroup.tabsaphire": "Saphire",
       "item.tnt_go_boom.bingqiling_stuff_armor_helmet": "Bingqiling Helmet",
       "item.tnt_go_boom.sapphire_shovel": "Sapphire Shovel",
       "item.tnt_go_boom.bingqiling_stuff_hoe": "Bingqiling_stuff Hoe",
-      "block.tnt_go_boom.chez_wood_pressure_plate": "Chez_wood Pressure Plate",
       "block.tnt_go_boom.chez_wood_slab": "Chez_wood Slab",
+      "block.tnt_go_boom.chez_wood_pressure_plate": "Chez_wood Pressure Plate",
       "item.tnt_go_boom.cheztools_axe": "Cheztools Axe",
       "biome.tnt_go_boom.chez_biome": "Chez Biome",
       "item.tnt_go_boom.bingqiling_stuff_ingot": "Bingqiling_ingot",
@@ -1069,14 +1305,12 @@
       "item.tnt_go_boom.sapphire_armor_leggings": "Sapphire Kneecap Protector",
       "item.tnt_go_boom.cheese_squire_armor_chestplate": "Cheese_squire Chestplate",
       "item.tnt_go_boom.bingqiling_stuff_sword": "Bingqiling_stuff Sword",
-      "entity.tnt_go_boom.cheznomer": "Cheznomer",
       "item.tnt_go_boom.sapphire_armor_boots": "Sapphire Boots",
       "item.tnt_go_boom.icecreamcone": "Icecreamcone",
       "item.tnt_go_boom.poisonpotato": "Poison potato dart",
       "block.tnt_go_boom.chez_wood_fence": "Chez_wood Fence",
       "block.tnt_go_boom.chez_wood_button": "Chez_wood Button",
       "item.tnt_go_boom.bingqiling_stuff_pickaxe": "Bingqiling_stuff Pickaxe",
-      "item.tnt_go_boom.ar": "Ar",
       "block.tnt_go_boom.cheeseblock": "Cheeseblock",
       "block.tnt_go_boom.chez_wood_wood": "Chez_wood Wood",
       "block.tnt_go_boom.chez_wood_fence_gate": "Chez_wood Fence Gate",
@@ -1091,15 +1325,12 @@
       "item.tnt_go_boom.bingqiling_stuff_armor_leggings": "Bingqiling Leggings",
       "item.tnt_go_boom.cheztools_shovel": "Cheztools Shovel",
       "block.tnt_go_boom.chez_wood_stairs": "Chez_wood Stairs",
-      "itemGroup.tabchezthing": "Chezthing",
-      "item.tnt_go_boom.cheznomer_spawn_egg": "Cheznomer Spawn Egg",
       "item.tnt_go_boom.bingqiling": "Bingqiling",
       "block.tnt_go_boom.sapphire_ore": "Sapphire Ore",
       "item.tnt_go_boom.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.tnt_go_boom.bingqiling_stuff_axe": "Bingqiling_stuff Axe",
       "item.tnt_go_boom.cheztools_sword": "Cheztools Sword",
       "item.tnt_go_boom.chez": "Chez",
-      "item.tnt_go_boom.gungun": "Gungun",
       "block.tnt_go_boom.chez_wood_leaves": "Chez_wood Leaves",
       "item.tnt_go_boom.sapphire_armor_chestplate": "Sapphire Chestplate"
     }
