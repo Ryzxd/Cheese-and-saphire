@@ -796,10 +796,6 @@
             "type": "number"
           },
           {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -1040,7 +1036,7 @@
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_ore"
     },
@@ -1240,7 +1236,7 @@
       "name": "PotehtohSword",
       "type": "tool",
       "sortid": 87,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_sword"
     },
@@ -1293,13 +1289,14 @@
       "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
       "block.tnt_go_boom.chezwoodwoodwood": "Chezwoodwoodwood",
       "item.tnt_go_boom.endermanarmor_armor_boots": "Enderman Boots",
+      "block.tnt_go_boom.potehtoh_ore": "Potehtoh Ore",
       "item.tnt_go_boom.bingqiling_stuff_armor_helmet": "Bingqiling Helmet",
       "item.tnt_go_boom.sapphire_shovel": "Sapphire Shovel",
       "item.tnt_go_boom.bingqiling_stuff_hoe": "Bingqiling_stuff Hoe",
       "block.tnt_go_boom.chez_wood_slab": "Chez_wood Slab",
       "block.tnt_go_boom.chez_wood_pressure_plate": "Chez_wood Pressure Plate",
-      "item.tnt_go_boom.cheztools_axe": "Cheztools Axe",
       "biome.tnt_go_boom.chez_biome": "Chez Biome",
+      "item.tnt_go_boom.cheztools_axe": "Cheztools Axe",
       "item.tnt_go_boom.potehtoh_armor_chestplate": "Potehtoh Chestplate",
       "item.tnt_go_boom.potehtoh_armor_leggings": "Potehtoh Leggings",
       "item.tnt_go_boom.bingqiling_stuff_ingot": "Bingqiling_ingot",
@@ -1323,7 +1320,7 @@
       "block.tnt_go_boom.chez_wood_fence": "Chez_wood Fence",
       "block.tnt_go_boom.chez_wood_button": "Chez_wood Button",
       "item.tnt_go_boom.bingqiling_stuff_pickaxe": "Bingqiling_stuff Pickaxe",
-      "item.tnt_go_boom.ar": "Ar",
+      "item.tnt_go_boom.ar": "Assault rifle",
       "block.tnt_go_boom.cheeseblock": "Cheeseblock",
       "block.tnt_go_boom.chez_wood_wood": "Chez_wood Wood",
       "block.tnt_go_boom.chez_wood_fence_gate": "Chez_wood Fence Gate",
