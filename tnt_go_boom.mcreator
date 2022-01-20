@@ -384,7 +384,7 @@
       "name": "Chez_woodPressurePlate",
       "type": "block",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chez_wood_pressure_plate"
     },
@@ -1048,7 +1048,7 @@
       "name": "Potatostick",
       "type": "item",
       "sortid": 102,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potatostick"
     },
@@ -1327,6 +1327,7 @@
       "block.tnt_go_boom.cheeseblock": "Cheeseblock",
       "block.tnt_go_boom.chez_wood_wood": "Chez_wood Wood",
       "block.tnt_go_boom.chez_wood_fence_gate": "Chez_wood Fence Gate",
+      "item.tnt_go_boom.potatostick": "Potatostick",
       "block.tnt_go_boom.sapphire_block": "Block of Sapphire",
       "item.tnt_go_boom.cheztools_hoe": "Cheztools Hoe",
       "item.tnt_go_boom.potehtoh_hoe": "Potehtoh Hoe",
