@@ -32,6 +32,7 @@ import net.mcreator.tntgoboom.item.PotehtohAxeItem;
 import net.mcreator.tntgoboom.item.PotehtohArmorItem;
 import net.mcreator.tntgoboom.item.PotatostickItem;
 import net.mcreator.tntgoboom.item.PoisonpotatoItem;
+import net.mcreator.tntgoboom.item.KeyboardcatItem;
 import net.mcreator.tntgoboom.item.IcecreamconeItem;
 import net.mcreator.tntgoboom.item.GungunItem;
 import net.mcreator.tntgoboom.item.EndermanarmorArmorItem;
@@ -138,6 +139,7 @@ public class TntGoBoomModItems {
 	public static final Item POTEHTOH_ARMOR_BOOTS = register(new PotehtohArmorItem.Boots());
 	public static final Item POTATOSTICK = register(new PotatostickItem());
 	public static final Item CHEZDART = register(new ChezdartItem());
+	public static final Item KEYBOARDCAT = register(new KeyboardcatItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

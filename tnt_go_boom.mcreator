@@ -1297,12 +1297,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "potehto"
+    },
+    {
+      "name": "Keyboardcat",
+      "type": "musicdisc",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keyboardcat"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "keyboard_cat",
+      "files": [
+        "keyboard_cat"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.keyboard_cat": "",
       "item.tnt_go_boom.potehtoh_sword": "Potehtoh Sword",
       "block.tnt_go_boom.bingqiling_stuff_block": "Block of Bingqiling_stuff",
       "block.tnt_go_boom.chez_wood_planks": "Chez_wood Planks",
@@ -1360,6 +1378,8 @@
       "block.tnt_go_boom.sapphire_block": "Block of Sapphire",
       "item.tnt_go_boom.cheztools_hoe": "Cheztools Hoe",
       "item.tnt_go_boom.potehtoh_hoe": "Potehtoh Hoe",
+      "item.tnt_go_boom.keyboardcat": "Keyboard cat",
+      "item.tnt_go_boom.keyboardcat.desc": "Keyboard Cat",
       "item.tnt_go_boom.chezdart": "Chez dart",
       "block.tnt_go_boom.bingqiling_stuff_ore": "Bingqiling_Ore",
       "item.tnt_go_boom.sapphiredart": "Sapphiredart",

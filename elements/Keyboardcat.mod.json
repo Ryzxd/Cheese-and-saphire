@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "keyboard_cat",
+    "name": "Keyboard cat",
+    "description": "Keyboard Cat",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:keyboard_cat"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

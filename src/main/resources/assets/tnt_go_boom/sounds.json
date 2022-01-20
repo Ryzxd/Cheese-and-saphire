@@ -1,0 +1,11 @@
+{
+  "keyboard_cat": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "tnt_go_boom:keyboard_cat",
+        "stream": false
+      }
+    ]
+  }
+}
