@@ -1,7 +1,14 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
+import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.tntgoboom.init.TntGoBoomModItems;
 
 public class PotehtohHoeItem extends HoeItem {
 	public PotehtohHoeItem() {
@@ -29,19 +36,7 @@ public class PotehtohHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TntGoBoomModItems.POTEHTOH));
 			}
-		},
-
-				0, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-
+		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("potehtoh_hoe");
 	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("ur mom"));
-	}
-
 }

@@ -1,11 +1,22 @@
 
 package net.mcreator.tntgoboom.item;
 
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
+
+import net.mcreator.tntgoboom.entity.ArEntity;
 
 public class ArItem extends Item {
-
 	public ArItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(100));
 		setRegistryName("ar");
@@ -34,15 +45,10 @@ public class ArItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-
 				ArEntity entityarrow = ArEntity.shoot(world, entity, world.getRandom(), 1f, 5, 5);
-
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
-
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
-
 			}
 		}
 	}
-
 }

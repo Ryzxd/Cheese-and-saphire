@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class Chez_woodSlabBlock extends SlabBlock {
 	public Chez_woodSlabBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(20f, 256f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(5f, 241.5f).requiresCorrectToolForDrops());
 		setRegistryName("chez_wood_slab");
 	}
 
