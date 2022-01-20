@@ -782,7 +782,7 @@
       "name": "Tree_mine",
       "type": "procedure",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_mine",
       "metadata": {
@@ -806,7 +806,7 @@
       "name": "Cheznomer",
       "type": "livingentity",
       "sortid": 84,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cheznomer"
     },
@@ -814,7 +814,7 @@
       "name": "Farmland",
       "type": "procedure",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "farmland",
       "metadata": {
@@ -842,7 +842,7 @@
       "name": "Bonemeal",
       "type": "procedure",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bonemeal",
       "metadata": {
@@ -996,7 +996,7 @@
       "name": "Ar",
       "type": "rangeditem",
       "sortid": 91,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ar"
     },
@@ -1020,7 +1020,7 @@
       "name": "Gungun",
       "type": "rangeditem",
       "sortid": 89,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gungun"
     },
@@ -1036,7 +1036,7 @@
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_ore"
     },
@@ -1084,7 +1084,7 @@
       "name": "Potehtohswordhit",
       "type": "procedure",
       "sortid": 101,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtohswordhit",
       "metadata": {
@@ -1116,7 +1116,7 @@
       "name": "Chezdart",
       "type": "rangeditem",
       "sortid": 105,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chezdart"
     },
@@ -1132,7 +1132,7 @@
       "name": "PotehtohBlock",
       "type": "block",
       "sortid": 81,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_block"
     },
@@ -1148,7 +1148,7 @@
       "name": "PotehtohShovel",
       "type": "tool",
       "sortid": 88,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_shovel"
     },
@@ -1236,7 +1236,7 @@
       "name": "PotehtohSword",
       "type": "tool",
       "sortid": 87,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_sword"
     },
@@ -1244,7 +1244,7 @@
       "name": "PotehtohAxe",
       "type": "tool",
       "sortid": 86,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_axe"
     },
@@ -1252,7 +1252,7 @@
       "name": "PotehtohArmor",
       "type": "armor",
       "sortid": 95,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_armor",
       "metadata": {
@@ -1283,6 +1283,7 @@
       "block.tnt_go_boom.chez_wood_log": "Chez_wood Log",
       "item.tnt_go_boom.cheztools_pickaxe": "Cheztools Pickaxe",
       "item.tnt_go_boom.stickchezwood": "Stickchezwood",
+      "item.tnt_go_boom.booleto": "Booleto",
       "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
       "block.tnt_go_boom.chezwoodwoodwood": "Chezwoodwoodwood",
       "item.tnt_go_boom.endermanarmor_armor_boots": "Enderman Boots",
