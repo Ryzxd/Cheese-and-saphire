@@ -13,7 +13,7 @@
       "value": "TOOLS"
     },
     "toolType": "Spade",
-    "harvestLevel": 4,
+    "harvestLevel": 0,
     "efficiency": 50.0,
     "attackSpeed": 1.0,
     "enchantability": 28,

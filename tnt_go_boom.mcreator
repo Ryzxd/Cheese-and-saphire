@@ -336,7 +336,7 @@
       "name": "Chez_woodPlanks",
       "type": "block",
       "sortid": 25,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chez_wood_planks"
     },
@@ -1084,7 +1084,7 @@
       "name": "Potehtohswordhit",
       "type": "procedure",
       "sortid": 101,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtohswordhit",
       "metadata": {
@@ -1124,7 +1124,7 @@
       "name": "Potehtoh",
       "type": "item",
       "sortid": 79,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh"
     },
@@ -1148,7 +1148,7 @@
       "name": "PotehtohShovel",
       "type": "tool",
       "sortid": 88,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_shovel"
     },
@@ -1316,6 +1316,7 @@
       "entity.tnt_go_boom.cheznomer": "Cheznomer",
       "item.tnt_go_boom.sapphire_armor_boots": "Sapphire Boots",
       "item.tnt_go_boom.icecreamcone": "Icecreamcone",
+      "item.tnt_go_boom.potehtoh": "Potehtoh",
       "item.tnt_go_boom.poisonpotato": "Poison potato dart",
       "block.tnt_go_boom.chez_wood_fence": "Chez_wood Fence",
       "block.tnt_go_boom.chez_wood_button": "Chez_wood Button",
@@ -1324,6 +1325,7 @@
       "block.tnt_go_boom.cheeseblock": "Cheeseblock",
       "block.tnt_go_boom.chez_wood_wood": "Chez_wood Wood",
       "block.tnt_go_boom.chez_wood_fence_gate": "Chez_wood Fence Gate",
+      "item.tnt_go_boom.potehtoh_shovel": "Potehtoh Shovel",
       "item.tnt_go_boom.potatostick": "Potatostick",
       "block.tnt_go_boom.sapphire_block": "Block of Sapphire",
       "item.tnt_go_boom.cheztools_hoe": "Cheztools Hoe",
