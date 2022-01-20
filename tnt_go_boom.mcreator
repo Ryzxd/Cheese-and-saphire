@@ -384,7 +384,7 @@
       "name": "Chez_woodPressurePlate",
       "type": "block",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chez_wood_pressure_plate"
     },
@@ -392,7 +392,7 @@
       "name": "Chez_woodButton",
       "type": "block",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chez_wood_button"
     },
@@ -806,7 +806,7 @@
       "name": "Cheznomer",
       "type": "livingentity",
       "sortid": 84,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cheznomer"
     },
@@ -814,7 +814,7 @@
       "name": "Farmland",
       "type": "procedure",
       "sortid": 80,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "farmland",
       "metadata": {
@@ -842,7 +842,7 @@
       "name": "Bonemeal",
       "type": "procedure",
       "sortid": 81,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal",
       "metadata": {
@@ -996,7 +996,7 @@
       "name": "Ar",
       "type": "rangeditem",
       "sortid": 91,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ar"
     },
@@ -1036,7 +1036,7 @@
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_ore"
     },
@@ -1044,7 +1044,7 @@
       "name": "Potatostick",
       "type": "item",
       "sortid": 102,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potatostick"
     },
@@ -1116,7 +1116,7 @@
       "name": "Chezdart",
       "type": "rangeditem",
       "sortid": 105,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chezdart"
     },
@@ -1132,7 +1132,7 @@
       "name": "PotehtohBlock",
       "type": "block",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_block"
     },
@@ -1244,7 +1244,7 @@
       "name": "PotehtohAxe",
       "type": "tool",
       "sortid": 86,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_axe"
     },
