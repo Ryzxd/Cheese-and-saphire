@@ -782,7 +782,7 @@
       "name": "Tree_mine",
       "type": "procedure",
       "sortid": 79,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "tree_mine",
       "metadata": {
@@ -806,7 +806,7 @@
       "name": "Cheznomer",
       "type": "livingentity",
       "sortid": 84,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cheznomer"
     },
@@ -814,7 +814,7 @@
       "name": "Farmland",
       "type": "procedure",
       "sortid": 80,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "farmland",
       "metadata": {
@@ -842,7 +842,7 @@
       "name": "Bonemeal",
       "type": "procedure",
       "sortid": 81,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal",
       "metadata": {
@@ -996,7 +996,7 @@
       "name": "Ar",
       "type": "rangeditem",
       "sortid": 91,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ar"
     },
@@ -1020,7 +1020,7 @@
       "name": "Gungun",
       "type": "rangeditem",
       "sortid": 89,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "gungun"
     },
@@ -1036,7 +1036,7 @@
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_ore"
     },
@@ -1084,7 +1084,7 @@
       "name": "Potehtohswordhit",
       "type": "procedure",
       "sortid": 101,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtohswordhit",
       "metadata": {
@@ -1116,7 +1116,7 @@
       "name": "Chezdart",
       "type": "rangeditem",
       "sortid": 105,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chezdart"
     },
@@ -1140,7 +1140,7 @@
       "name": "PotehtohPickaxe",
       "type": "tool",
       "sortid": 85,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_pickaxe"
     },
@@ -1303,6 +1303,7 @@
       "item.tnt_go_boom.sapphire_axe": "Sapphire Axe",
       "item.tnt_go_boom.endermanarmor_armor_helmet": "Enderman Helmet",
       "item.tnt_go_boom.cheese_squire_armor_helmet": "Cheese_squire Helmet",
+      "item.tnt_go_boom.potehtoh_pickaxe": "Potehtoh Pickaxe",
       "item.tnt_go_boom.sapphire_armor_leggings": "Sapphire Kneecap Protector",
       "item.tnt_go_boom.cheese_squire_armor_chestplate": "Cheese_squire Chestplate",
       "item.tnt_go_boom.bingqiling_stuff_sword": "Bingqiling_stuff Sword",
