@@ -5,8 +5,10 @@
     "renderType": 0,
     "texture": "asault_firlf",
     "customModelName": "Normal",
-    "name": "Ar",
-    "specialInfo": [],
+    "name": "Assault rifle",
+    "specialInfo": [
+      "rifle that assaults"
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },

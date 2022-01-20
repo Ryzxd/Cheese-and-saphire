@@ -782,7 +782,7 @@
       "name": "Tree_mine",
       "type": "procedure",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_mine",
       "metadata": {
@@ -806,7 +806,7 @@
       "name": "Cheznomer",
       "type": "livingentity",
       "sortid": 84,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cheznomer"
     },
@@ -814,7 +814,7 @@
       "name": "Farmland",
       "type": "procedure",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "farmland",
       "metadata": {
@@ -842,7 +842,7 @@
       "name": "Bonemeal",
       "type": "procedure",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bonemeal",
       "metadata": {
@@ -1036,7 +1036,7 @@
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_ore"
     },
@@ -1084,7 +1084,7 @@
       "name": "Potehtohswordhit",
       "type": "procedure",
       "sortid": 101,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtohswordhit",
       "metadata": {
@@ -1116,7 +1116,7 @@
       "name": "Chezdart",
       "type": "rangeditem",
       "sortid": 105,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chezdart"
     },
@@ -1124,7 +1124,7 @@
       "name": "Potehtoh",
       "type": "item",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh"
     },
@@ -1148,7 +1148,7 @@
       "name": "PotehtohShovel",
       "type": "tool",
       "sortid": 88,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_shovel"
     },
@@ -1236,7 +1236,7 @@
       "name": "PotehtohSword",
       "type": "tool",
       "sortid": 87,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_sword"
     },
@@ -1244,7 +1244,7 @@
       "name": "PotehtohAxe",
       "type": "tool",
       "sortid": 86,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_axe"
     },
@@ -1313,6 +1313,7 @@
       "block.tnt_go_boom.chez_wood_fence": "Chez_wood Fence",
       "block.tnt_go_boom.chez_wood_button": "Chez_wood Button",
       "item.tnt_go_boom.bingqiling_stuff_pickaxe": "Bingqiling_stuff Pickaxe",
+      "item.tnt_go_boom.ar": "Assault rifle",
       "block.tnt_go_boom.cheeseblock": "Cheeseblock",
       "block.tnt_go_boom.chez_wood_wood": "Chez_wood Wood",
       "block.tnt_go_boom.chez_wood_fence_gate": "Chez_wood Fence Gate",
@@ -1327,12 +1328,14 @@
       "item.tnt_go_boom.bingqiling_stuff_armor_leggings": "Bingqiling Leggings",
       "item.tnt_go_boom.cheztools_shovel": "Cheztools Shovel",
       "block.tnt_go_boom.chez_wood_stairs": "Chez_wood Stairs",
+      "itemGroup.tabchezthing": "Chezthing",
       "item.tnt_go_boom.bingqiling": "Bingqiling",
       "block.tnt_go_boom.sapphire_ore": "Sapphire Ore",
       "item.tnt_go_boom.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.tnt_go_boom.bingqiling_stuff_axe": "Bingqiling_stuff Axe",
       "item.tnt_go_boom.cheztools_sword": "Cheztools Sword",
       "item.tnt_go_boom.chez": "Chez",
+      "item.tnt_go_boom.gungun": "Gungun",
       "block.tnt_go_boom.chez_wood_leaves": "Chez_wood Leaves",
       "item.tnt_go_boom.sapphire_armor_chestplate": "Sapphire Chestplate"
     }
