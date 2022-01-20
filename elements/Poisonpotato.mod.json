@@ -12,7 +12,7 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "ammoItem": {
       "value": ""
     },

@@ -23,7 +23,7 @@ import java.util.List;
 
 public class PoisonpotatoItem extends Item {
 	public PoisonpotatoItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(64));
 		setRegistryName("poisonpotato");
 	}
 
