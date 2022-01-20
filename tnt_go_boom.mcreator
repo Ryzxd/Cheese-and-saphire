@@ -384,7 +384,7 @@
       "name": "Chez_woodPressurePlate",
       "type": "block",
       "sortid": 31,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chez_wood_pressure_plate"
     },
@@ -392,7 +392,7 @@
       "name": "Chez_woodButton",
       "type": "block",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chez_wood_button"
     },
@@ -488,7 +488,7 @@
       "name": "CheztoolsAxe",
       "type": "tool",
       "sortid": 44,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cheztools_axe"
     },
@@ -782,7 +782,7 @@
       "name": "Tree_mine",
       "type": "procedure",
       "sortid": 79,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "tree_mine",
       "metadata": {
@@ -793,6 +793,10 @@
           },
           {
             "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
             "type": "number"
           },
           {
@@ -862,7 +866,7 @@
       "name": "Sapphiredart",
       "type": "rangeditem",
       "sortid": 23,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sapphiredart"
     },
@@ -876,8 +880,20 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -886,7 +902,7 @@
       "name": "Poisonpotato",
       "type": "rangeditem",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "poisonpotato"
     },
@@ -940,8 +956,20 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -996,7 +1024,7 @@
       "name": "Ar",
       "type": "rangeditem",
       "sortid": 91,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ar"
     },
@@ -1132,7 +1160,7 @@
       "name": "PotehtohBlock",
       "type": "block",
       "sortid": 81,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_block"
     },
@@ -1236,7 +1264,7 @@
       "name": "PotehtohSword",
       "type": "tool",
       "sortid": 87,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_sword"
     },
@@ -1289,6 +1317,7 @@
       "item.tnt_go_boom.sapphire_sword": "Sapphire Sword",
       "block.tnt_go_boom.chezwoodwoodwood": "Chezwoodwoodwood",
       "item.tnt_go_boom.endermanarmor_armor_boots": "Enderman Boots",
+      "itemGroup.tabsaphire": "Saphire",
       "block.tnt_go_boom.potehtoh_ore": "Potehtoh Ore",
       "item.tnt_go_boom.bingqiling_stuff_armor_helmet": "Bingqiling Helmet",
       "item.tnt_go_boom.sapphire_shovel": "Sapphire Shovel",
@@ -1324,6 +1353,7 @@
       "item.tnt_go_boom.ar": "Assault rifle",
       "block.tnt_go_boom.cheeseblock": "Cheeseblock",
       "block.tnt_go_boom.chez_wood_wood": "Chez_wood Wood",
+      "block.tnt_go_boom.potehtoh_block": "Block of Potehtoh",
       "block.tnt_go_boom.chez_wood_fence_gate": "Chez_wood Fence Gate",
       "item.tnt_go_boom.potehtoh_shovel": "Potehtoh Shovel",
       "item.tnt_go_boom.potatostick": "Potatostick",
@@ -1334,12 +1364,13 @@
       "block.tnt_go_boom.bingqiling_stuff_ore": "Bingqiling_Ore",
       "item.tnt_go_boom.sapphiredart": "Sapphiredart",
       "item.tnt_go_boom.cheese_squire_armor_boots": "Cheese_squire Boots",
-      "item.tnt_go_boom.endermanarmor_armor_leggings": "Enderman Leggings",
+      "item.tnt_go_boom.endermanarmor_armor_leggings": "Enderman kneecap protector",
       "item.tnt_go_boom.cheese_squire_armor_leggings": "Cheese_squire Leggings",
       "item.tnt_go_boom.sapphire_hoe": "Sapphire Hoe",
       "item.tnt_go_boom.bingqiling_stuff_armor_leggings": "Bingqiling Leggings",
       "item.tnt_go_boom.cheztools_shovel": "Cheztools Shovel",
       "block.tnt_go_boom.chez_wood_stairs": "Chez_wood Stairs",
+      "itemGroup.tabchezthing": "Chezthing",
       "item.tnt_go_boom.cheznomer_spawn_egg": "Cheznomer Spawn Egg",
       "item.tnt_go_boom.bingqiling": "Bingqiling",
       "block.tnt_go_boom.sapphire_ore": "Sapphire Ore",

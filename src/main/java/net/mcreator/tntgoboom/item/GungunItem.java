@@ -69,7 +69,7 @@ public class GungunItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					GungunEntity entityarrow = GungunEntity.shoot(world, entity, world.getRandom(), 100f, 15, 1);
+					GungunEntity entityarrow = GungunEntity.shoot(world, entity, world.getRandom(), 100f, 8.5, 1);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

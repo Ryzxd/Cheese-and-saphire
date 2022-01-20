@@ -7,7 +7,7 @@
   ],
   "key": {
     "0": {
-      "item": "tnt_go_boom:deleted_mod_element"
+      "item": "tnt_go_boom:potehtoh"
     },
     "1": {
       "item": "tnt_go_boom:potatostick"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "tnt_go_boom:deleted_mod_element",
+    "item": "tnt_go_boom:potehtoh_shovel",
     "count": 1
   }
 }

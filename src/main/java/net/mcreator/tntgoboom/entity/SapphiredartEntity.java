@@ -69,7 +69,7 @@ public class SapphiredartEntity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity imediatesourceentity = this;
 
-		DartshotProcedure.execute(world, x, y, z);
+		DartshotProcedure.execute(entity);
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class SapphiredartEntity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity imediatesourceentity = this;
 
-		DartshotProcedure.execute(world, x, y, z);
+		DartshotProcedure.execute(entity);
 	}
 
 	@Override

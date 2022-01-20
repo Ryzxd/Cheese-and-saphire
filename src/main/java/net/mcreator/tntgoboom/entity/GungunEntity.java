@@ -99,7 +99,7 @@ public class GungunEntity extends AbstractArrow implements ItemSupplier {
 		double d3 = target.getZ() - entity.getZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 100f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(15);
+		entityarrow.setBaseDamage(8.5);
 		entityarrow.setKnockback(1);
 		entityarrow.setCritArrow(false);
 		entity.level.addFreshEntity(entityarrow);
