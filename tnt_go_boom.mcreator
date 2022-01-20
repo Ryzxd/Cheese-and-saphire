@@ -336,7 +336,7 @@
       "name": "Chez_woodPlanks",
       "type": "block",
       "sortid": 25,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chez_wood_planks"
     },
@@ -376,7 +376,7 @@
       "name": "Chez_woodFenceGate",
       "type": "block",
       "sortid": 30,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chez_wood_fence_gate"
     },
@@ -384,7 +384,7 @@
       "name": "Chez_woodPressurePlate",
       "type": "block",
       "sortid": 31,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chez_wood_pressure_plate"
     },
@@ -392,7 +392,7 @@
       "name": "Chez_woodButton",
       "type": "block",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chez_wood_button"
     },
@@ -1040,7 +1040,7 @@
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_ore"
     },
@@ -1048,7 +1048,7 @@
       "name": "Potatostick",
       "type": "item",
       "sortid": 102,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potatostick"
     },
@@ -1088,7 +1088,7 @@
       "name": "Potehtohswordhit",
       "type": "procedure",
       "sortid": 101,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtohswordhit",
       "metadata": {
@@ -1128,7 +1128,7 @@
       "name": "Potehtoh",
       "type": "item",
       "sortid": 79,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh"
     },
@@ -1136,7 +1136,7 @@
       "name": "PotehtohBlock",
       "type": "block",
       "sortid": 81,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_block"
     },
@@ -1152,7 +1152,7 @@
       "name": "PotehtohShovel",
       "type": "tool",
       "sortid": 88,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "potehtoh_shovel"
     },
