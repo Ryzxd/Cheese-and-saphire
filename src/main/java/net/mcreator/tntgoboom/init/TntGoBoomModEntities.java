@@ -35,7 +35,7 @@ public class TntGoBoomModEntities {
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<CheznomerEntity> CHEZNOMER = register("cheznomer",
 			EntityType.Builder.<CheznomerEntity>of(CheznomerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CheznomerEntity::new).sized(0.9f, 0.9f));
+					.setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(CheznomerEntity::new).sized(0.9f, 0.9f));
 	public static final EntityType<GungunEntity> GUNGUN = register("entitybulletgungun",
 			EntityType.Builder.<GungunEntity>of(GungunEntity::new, MobCategory.MISC).setCustomClientFactory(GungunEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));

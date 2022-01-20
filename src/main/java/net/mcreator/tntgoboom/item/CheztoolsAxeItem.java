@@ -52,7 +52,7 @@ public class CheztoolsAxeItem extends AxeItem {
 		int y = pos.getY();
 		int z = pos.getZ();
 
-		Tree_mineProcedure.execute(world, x, y);
+		Tree_mineProcedure.execute(world, x, y, z);
 		return retval;
 	}
 }

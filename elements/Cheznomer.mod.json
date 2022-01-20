@@ -3,7 +3,7 @@
   "_type": "livingentity",
   "definition": {
     "mobName": "Cheznomer",
-    "mobLabel": "cheznomer",
+    "mobLabel": "",
     "mobModelName": "Pig",
     "mobModelTexture": "download_7.png",
     "mobModelGlowTexture": "download_7.png",
@@ -23,7 +23,7 @@
     "creativeTab": {
       "value": "MISC"
     },
-    "isBoss": true,
+    "isBoss": false,
     "bossBarColor": "YELLOW",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
@@ -46,14 +46,14 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 5,
-    "attackKnockback": 4.0,
+    "attackStrength": 4,
+    "attackKnockback": 3.9,
     "knockbackResistance": 3.0,
-    "movementSpeed": 0.5,
-    "armorBaseValue": 1.0,
-    "trackingRange": 64,
+    "movementSpeed": 0.1,
+    "armorBaseValue": 1.1,
+    "trackingRange": 80,
     "health": 8,
-    "xpAmount": 0,
+    "xpAmount": 10,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
