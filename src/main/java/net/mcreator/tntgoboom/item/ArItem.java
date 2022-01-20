@@ -70,7 +70,7 @@ public class ArItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					ArEntity entityarrow = ArEntity.shoot(world, entity, world.getRandom(), 1f, 7, 8);
+					ArEntity entityarrow = ArEntity.shoot(world, entity, world.getRandom(), 30f, 7, 8);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

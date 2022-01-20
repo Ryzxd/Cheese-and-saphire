@@ -336,7 +336,7 @@
       "name": "Chez_woodPlanks",
       "type": "block",
       "sortid": 25,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chez_wood_planks"
     },
@@ -488,7 +488,7 @@
       "name": "CheztoolsAxe",
       "type": "tool",
       "sortid": 44,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cheztools_axe"
     },
@@ -866,7 +866,7 @@
       "name": "Sapphiredart",
       "type": "rangeditem",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "sapphiredart"
     },
@@ -902,7 +902,7 @@
       "name": "Poisonpotato",
       "type": "rangeditem",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "poisonpotato"
     },

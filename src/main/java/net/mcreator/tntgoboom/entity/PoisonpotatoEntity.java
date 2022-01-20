@@ -69,7 +69,7 @@ public class PoisonpotatoEntity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity imediatesourceentity = this;
 
-		PoisonpotatodartshotProcedure.execute(entity);
+		PoisonpotatodartshotProcedure.execute(world, x, y, z);
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class PoisonpotatoEntity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity imediatesourceentity = this;
 
-		PoisonpotatodartshotProcedure.execute(entity);
+		PoisonpotatodartshotProcedure.execute(world, x, y, z);
 	}
 
 	@Override
