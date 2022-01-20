@@ -392,7 +392,7 @@
       "name": "Chez_woodButton",
       "type": "block",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chez_wood_button"
     },
@@ -782,7 +782,7 @@
       "name": "Tree_mine",
       "type": "procedure",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tree_mine",
       "metadata": {
@@ -1000,7 +1000,7 @@
       "name": "Ar",
       "type": "rangeditem",
       "sortid": 91,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ar"
     },
@@ -1040,7 +1040,7 @@
       "name": "PotehtohOre",
       "type": "block",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_ore"
     },
@@ -1048,7 +1048,7 @@
       "name": "Potatostick",
       "type": "item",
       "sortid": 102,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potatostick"
     },
@@ -1088,7 +1088,7 @@
       "name": "Potehtohswordhit",
       "type": "procedure",
       "sortid": 101,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtohswordhit",
       "metadata": {
@@ -1128,7 +1128,7 @@
       "name": "Potehtoh",
       "type": "item",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh"
     },
@@ -1136,7 +1136,7 @@
       "name": "PotehtohBlock",
       "type": "block",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_block"
     },
@@ -1152,7 +1152,7 @@
       "name": "PotehtohShovel",
       "type": "tool",
       "sortid": 88,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potehtoh_shovel"
     },
